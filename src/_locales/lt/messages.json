@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex leidžia stebėti kelis puslapius tik viena eilute.##Spustelėkite čia, kad sužinotumėte apie tai!"
+    "message": "Regex leidžia stebėti kelis puslapius tik viena eilute.\u000ASpustelėkite čia, kad sužinotumėte apie tai!"
   },
   "ih_opt_ttl": {
     "message": "Norėdami stebėti, įveskite:"
@@ -63,7 +63,7 @@
     "message": "Įvyko klaida, šios svetainės duomenų bazės pašalinti nepavyko:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Neįmanoma pašalinti protokolų iš šio URL.##Dar kartą patikrinkite URL."
+    "message": "Neįmanoma pašalinti protokolų iš šio URL.\u000ADar kartą patikrinkite URL."
   },
   "notif_err_sldtld": {
     "message": "Pateiktame URL nėra antrojo ar aukščiausio lygio domeno (pvz., „google“ arba „com“ iš https://www.google.com URL)."
@@ -72,10 +72,10 @@
     "message": "Ar tikrai pašalinsite šį įrašą?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Ar tikrai pašalinsite šį įrašą?##Svetainė bus automatiškai atidaryta, kad būtų pašalinti vaizdai ir (arba) nuorodų duomenų bazė, tada uždaroma."
+    "message": "Ar tikrai pašalinsite šį įrašą?\u000ASvetainė bus automatiškai atidaryta, kad būtų pašalinti vaizdai ir (arba) nuorodų duomenų bazė, tada uždaroma."
   },
   "cnfrm_err_sldtld": {
-    "message": "Pateiktame URL nėra antrojo ar aukščiausio lygio domeno (pvz., „google“ arba „com“ iš https://www.google.com url).##Ar tikrai tęsite?"
+    "message": "Pateiktame URL nėra antrojo ar aukščiausio lygio domeno (pvz., „google“ arba „com“ iš https://www.google.com url).\u000AAr tikrai tęsite?"
   },
   "prompt_err_sldtld": {
     "message": "Pateikite antrojo arba aukščiausio lygio domeną, kad būtų galima pridėti šį reguliariojo reiškinio URL."

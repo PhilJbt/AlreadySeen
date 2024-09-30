@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex vă permite să monitorizați mai multe pagini cu o singură linie.##Faceți clic aici pentru a afla despre asta!"
+    "message": "Regex vă permite să monitorizați mai multe pagini cu o singură linie.\u000AFaceți clic aici pentru a afla despre asta!"
   },
   "ih_opt_ttl": {
     "message": "Tip de monitorizat:"
@@ -63,7 +63,7 @@
     "message": "A apărut o eroare, baza de date a acestui site web nu a putut fi eliminată:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Este imposibil să eliminați protocoalele din această adresă URL.##Verificați din nou adresa URL."
+    "message": "Este imposibil să eliminați protocoalele din această adresă URL.\u000AVerificați din nou adresa URL."
   },
   "notif_err_sldtld": {
     "message": "Adresa URL dată nu are un domeniu de nivel al doilea sau de nivel superior (de exemplu, „google” sau „com” de la adresa URL https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Sunteți sigur că eliminați această intrare?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Sunteți sigur că eliminați această intrare?##Site-ul web va fi deschis automat pentru a elimina baza de date cu imagini și/sau link-uri, apoi va fi închis."
+    "message": "Sunteți sigur că eliminați această intrare?\u000ASite-ul web va fi deschis automat pentru a elimina baza de date cu imagini și/sau link-uri, apoi va fi închis."
   },
   "cnfrm_err_sldtld": {
-    "message": "Adresa URL dată nu are un domeniu de nivel al doilea sau de nivel superior (de exemplu, „google” sau „com” de la https://www.google.com URL).##Sigur veți continua?"
+    "message": "Adresa URL dată nu are un domeniu de nivel al doilea sau de nivel superior (de exemplu, „google” sau „com” de la https://www.google.com URL).\u000ASigur veți continua?"
   },
   "prompt_err_sldtld": {
     "message": "Vă rugăm să furnizați un domeniu de nivel al doilea sau de nivel superior, astfel încât această adresă URL regex să poată fi adăugată."

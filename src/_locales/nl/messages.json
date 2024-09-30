@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Met Regex kunt u meerdere pagina's monitoren met slechts één regel.##Klik hier voor meer informatie!"
+    "message": "Met Regex kunt u meerdere pagina's monitoren met slechts één regel.\u000AKlik hier voor meer informatie!"
   },
   "ih_opt_ttl": {
     "message": "Type om te monitoren:"
@@ -63,7 +63,7 @@
     "message": "Er is een fout opgetreden, de database van deze website kan niet worden verwijderd:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Het is onmogelijk om protocollen van deze URL te verwijderen.##Controleer uw URL opnieuw."
+    "message": "Het is onmogelijk om protocollen van deze URL te verwijderen.\u000AControleer uw URL opnieuw."
   },
   "notif_err_sldtld": {
     "message": "De opgegeven URL heeft geen domein op het tweede niveau of op het hoogste niveau (bijvoorbeeld 'google' of 'com' van de URL https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Weet u zeker dat u dit bericht wilt verwijderen?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Weet u zeker dat u dit item wilt verwijderen?##De website wordt automatisch geopend om de database met afbeeldingen en/of links te verwijderen en vervolgens gesloten."
+    "message": "Weet u zeker dat u dit item wilt verwijderen?\u000ADe website wordt automatisch geopend om de database met afbeeldingen en/of links te verwijderen en vervolgens gesloten."
   },
   "cnfrm_err_sldtld": {
-    "message": "De opgegeven URL heeft geen domein op het tweede of hoogste niveau (bijvoorbeeld 'google' of 'com' van de URL https://www.google.com).##Weet je zeker dat je door wilt gaan?"
+    "message": "De opgegeven URL heeft geen domein op het tweede of hoogste niveau (bijvoorbeeld 'google' of 'com' van de URL https://www.google.com).\u000AWeet je zeker dat je door wilt gaan?"
   },
   "prompt_err_sldtld": {
     "message": "Geef een domein op het tweede of hoogste niveau op, zodat deze regex-URL kan worden toegevoegd."

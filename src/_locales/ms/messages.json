@@ -3,81 +3,81 @@
     "message": "Already Seen"
   },
   "extDescription": {
-    "message": "Serlahkan pautan dan/atau imej baharu pada halaman web kegemaran anda!"
+    "message": "سرتاكن ڤاءوتن دان/اتاو ڬمبر بارو د لامن ويب كڬماران اندا!"
   },
   "ph_opt_inp_url": {
-    "message": "Regex atau url"
+    "message": "ريڬكس اتاو url"
   },
   "ih_opt_chk_rgx": {
-    "message": "Regex"
+    "message": "ريڬيكس"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex membenarkan untuk memantau berbilang halaman dengan hanya satu baris.##Klik di sini untuk mengetahui tentangnya!"
+    "message": "ريڬيكس ممبوليهكن اونتوق ممنتاو ببراڤ هلامن دڠن هاڽ ساتو باريس.\u000Aكليك سيني اونتوق بلاجر تنتڠڽ!"
   },
   "ih_opt_ttl": {
-    "message": "Taip untuk memantau:"
+    "message": "جنيس اونتوق ممنتاو:"
   },
   "ih_opt_chk_img": {
-    "message": "Imej"
+    "message": "ايميج"
   },
   "ih_opt_chk_imgsizemax": {
-    "message": "Kawasan imej minimum (px)"
+    "message": "كاوسن ايميج مينيموم (px)"
   },
   "ih_opt_chk_lnk": {
-    "message": "Pautan"
+    "message": "ڤاءوتن"
   },
   "vl_opt_btn_add": {
-    "message": "Tambah"
+    "message": "تمبه"
   },
   "ih_opt_btn_import": {
-    "message": "Import"
+    "message": "ايمڤورت"
   },
   "vl_opt_btn_export": {
-    "message": "Eksport"
+    "message": "ايكسڤورت"
   },
   "lr_err_deldb": {
-    "message": "Ralat berlaku, pemadaman IndexedDb gagal."
+    "message": "ترجادي كسالهن، ڤمبواڠن IndexedDb ڬاڬل."
   },
   "lr_err_malformedurl": {
-    "message": "URL cacat."
+    "message": "url يڠ تيدق بربنتوق."
   },
   "lr_err_fromdb": {
-    "message": "Url tidak ditemui."
+    "message": "Url تيدق دجومڤأي."
   },
   "notif_title": {
-    "message": "Amaran!"
+    "message": "امران!"
   },
   "notif_err_notLnkNorImg": {
-    "message": "Sila semak sekurang-kurangnya satu jenis elemen untuk dipantau (iaitu imej atau pautan)."
+    "message": "سيلا چيك سكوراڠ-كورڠڽ ساتو جنيس عنصور اونتوق دڤانتاو ﴿ياايت ايميج اتاو ڤاءوتن﴾."
   },
   "notif_err_noProtocls": {
-    "message": "Url yang diberikan tidak mempunyai protokol (iaitu http:// atau https://)"
+    "message": "url يڠ دبريكن تيدق ممڤوڽاءي ڤروتوكول (ياايت http:// اتاو https://)"
   },
   "notif_err_unproperRegex": {
-    "message": "Regex yang diberikan tidak sah."
+    "message": "ريڬكس يڠ دبريكن تيدق صح."
   },
   "notif_err_dbRemove_succ": {
-    "message": "Pangkalan data tapak web ini telah dialih keluar. "
+    "message": "ڤڠكالن داتا لامن ويب اين تله دبواڠ. تب اين اكن دتوتوڤ سچارا اوتوماتيس."
   },
   "notif_err_dbRemove_fail": {
-    "message": "Ralat berlaku, pangkalan data tapak web ini tidak dapat dialih keluar:"
+    "message": "ترجادي كسالهن، ڤڠكالن داتا لامن ويب اين تيدق داڤت دكلواركن:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Mustahil untuk mengalih keluar protokol daripada URL ini.##Semak URL anda sekali lagi."
+    "message": "مستحيل اونتوق مڠهاڤوس ڤروتوكول دري URL اين.\u000Aچيك URL اندا سمولا."
   },
   "notif_err_sldtld": {
-    "message": "Url yang diberikan tidak mempunyai domain peringkat kedua atau peringkat atas (cth. \"google\" atau \"com\" daripada url https://www.google.com)."
+    "message": "url يڠ دبريكن تيدق ممڤوڽاءي دوماءين ڤريڠكت كدوا اتاو ڤريڠكت اتس ﴿ميثلڽ \"google\" اتاو \"com\" دري url https://www.google.com﴾."
   },
   "cnfrm_delEntryRgx": {
-    "message": "Adakah anda pasti akan mengalih keluar masukan ini?"
+    "message": "اندا ڤستي اکن مڠهاڤوسکن اينتري اين؟"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Adakah anda pasti untuk mengalih keluar masukan ini?##Tapak web akan dibuka secara automatik untuk mengalih keluar imej dan/atau pangkalan data pautan, dan kemudian ditutup."
+    "message": "ادكه اندا ڤستي اكن مڠهاڤوسكن ڤڽرتأن اين؟\u000Aلامن ويب اكن دبوك سچارا اوتوماتيس اونتوق مڠهاڤوسكن ڤڠكالن داتا ڬمبر دان/اتاو ڤاءوتن، دان كمودين دتوتوڤ."
   },
   "cnfrm_err_sldtld": {
-    "message": "Url yang diberikan tidak mempunyai domain peringkat kedua atau peringkat atas (cth. \"google\" atau \"com\" daripada url https://www.google.com).##Adakah anda pasti untuk meneruskan?"
+    "message": "url يڠ دبريكن تيدق ممڤوڽاءي دوماءين ڤريڠكت كدوا اتاو ڤريڠكت اتس ﴿ميثلڽ \"google\" اتاو \"com\" دري url https://www.google.com).\u000Aادكه اندا ڤستي اكن منروسكن؟"
   },
   "prompt_err_sldtld": {
-    "message": "Sila berikan domain peringkat kedua atau peringkat atas supaya URL regex ini boleh ditambahkan."
+    "message": "سيلا بريكن دوماءين ڤريڠكت كدوا اتاو ڤريڠكت اتس سوڤاي URL ريڬكس اين داڤت دتمبهكن كڤد."
   }
 }

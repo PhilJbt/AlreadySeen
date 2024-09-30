@@ -12,7 +12,7 @@
     "message": "Biểu thức chính quy"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex cho phép giám sát nhiều trang chỉ bằng một dòng.##Nhấp vào đây để tìm hiểu về nó!"
+    "message": "Regex cho phép giám sát nhiều trang chỉ bằng một dòng.\u000ANhấp vào đây để tìm hiểu về nó!"
   },
   "ih_opt_ttl": {
     "message": "Nhập để theo dõi:"
@@ -63,7 +63,7 @@
     "message": "Đã xảy ra lỗi, không thể xóa cơ sở dữ liệu của trang web này:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Không thể xóa giao thức khỏi URL này.##Hãy kiểm tra lại URL của bạn."
+    "message": "Không thể xóa giao thức khỏi URL này.\u000AHãy kiểm tra lại URL của bạn."
   },
   "notif_err_sldtld": {
     "message": "Url đã cho không có tên miền cấp hai hoặc cấp cao nhất (ví dụ: \"google\" hoặc \"com\" từ url https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Bạn có chắc chắn xóa mục này không?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Bạn có chắc chắn xóa mục này không?##Trang web sẽ được tự động mở để xóa cơ sở dữ liệu hình ảnh và/hoặc liên kết, sau đó đóng lại."
+    "message": "Bạn có chắc chắn xóa mục này không?\u000ATrang web sẽ được tự động mở để xóa cơ sở dữ liệu hình ảnh và/hoặc liên kết, sau đó đóng lại."
   },
   "cnfrm_err_sldtld": {
-    "message": "Url đã cung cấp không có tên miền cấp hai hoặc cấp cao nhất (ví dụ: \"google\" hoặc \"com\" từ url https://www.google.com).##Bạn có chắc chắn tiếp tục không?"
+    "message": "Url đã cung cấp không có tên miền cấp hai hoặc cấp cao nhất (ví dụ: \"google\" hoặc \"com\" từ url https://www.google.com).\u000ABạn có chắc chắn tiếp tục không?"
   },
   "prompt_err_sldtld": {
     "message": "Vui lòng cung cấp tên miền cấp hai hoặc cấp cao nhất để có thể thêm URL biểu thức chính quy này vào."

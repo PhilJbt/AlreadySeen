@@ -12,7 +12,7 @@
     "message": "正規表示式"
   },
   "tl_opt_nfo_rgx": {
-    "message": "正規表示式允許僅用一行監控多個頁面。"
+    "message": "正規表示式允許僅用一行監控多個頁面。 \u000A點這裡了解它！"
   },
   "ih_opt_ttl": {
     "message": "輸入要監控的內容："
@@ -63,7 +63,7 @@
     "message": "發生錯誤，無法刪除該網站的資料庫："
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "無法從此 URL 中刪除協定。"
+    "message": "無法從此 URL 中刪除協定。\u000A再次檢查您的 URL。"
   },
   "notif_err_sldtld": {
     "message": "給定的網址沒有二級或頂級網域（例如 https://www.google.com 網址中的「google」或「com」）。"
@@ -72,10 +72,10 @@
     "message": "您確定刪除此條目嗎？"
   },
   "cnfrm_delEntryStrict": {
-    "message": "您確定刪除此條目嗎？"
+    "message": "您確定刪除此條目嗎？\u000A網站將自動開啟以刪除圖像和/或連結資料庫，然後關閉。"
   },
   "cnfrm_err_sldtld": {
-    "message": "給定的網址沒有二級或頂級網域（例如 https://www.google.com 網址中的「google」或「com」）。"
+    "message": "給定的網址沒有二級或頂級網域（例如 https://www.google.com 網址中的「google」或「com」）。\u000A您確定要繼續嗎？"
   },
   "prompt_err_sldtld": {
     "message": "請提供二級或頂級域名，以便可以新增此正規表示式 URL。"

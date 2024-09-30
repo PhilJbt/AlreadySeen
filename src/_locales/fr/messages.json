@@ -12,7 +12,7 @@
     "message": "Expression régulière"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Les expressions régulières permettent de surveiller plusieurs pages avec une seule ligne.##Cliquez ici pour en savoir plus !"
+    "message": "Les expressions régulières permettent de surveiller plusieurs pages avec une seule ligne.\u000ACliquez ici pour en savoir plus !"
   },
   "ih_opt_ttl": {
     "message": "Type à surveiller :"
@@ -63,7 +63,7 @@
     "message": "Une erreur s'est produite, la base de données de ce site Web n'a pas pu être supprimée :"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Impossible de supprimer les protocoles de cette URL.##Vérifiez à nouveau votre URL."
+    "message": "Impossible de supprimer les protocoles de cette URL.\u000AVérifiez à nouveau votre URL."
   },
   "notif_err_sldtld": {
     "message": "L'URL indiquée n'a pas de domaine de premier ou de second niveau (par exemple \"google\" ou \"com\" pour https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Êtes-vous sûr de supprimer cette entrée ?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Êtes-vous sûr de supprimer cette entrée ?##Le site Web sera automatiquement ouvert pour supprimer la base de données d'images et/ou de liens, puis refermé."
+    "message": "Êtes-vous sûr de supprimer cette entrée ?\u000ALe site Web sera automatiquement ouvert pour supprimer la base de données d'images et/ou de liens, puis refermé."
   },
   "cnfrm_err_sldtld": {
-    "message": "L'URL indiquée ne comporte aucun domaine de premier ou de second niveau (par exemple, \"google\" ou \"com\" de l'URL https://www.google.com).##Voulez-vous vraiment continuer ?"
+    "message": "L'URL indiquée ne comporte aucun domaine de premier ou de second niveau (par exemple, \"google\" ou \"com\" de l'URL https://www.google.com).\u000AVoulez-vous vraiment continuer ?"
   },
   "prompt_err_sldtld": {
     "message": "Veuillez fournir un domaine de premier ou de second niveau afin que cette expression régulière puisse être ajoutée."

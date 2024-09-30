@@ -12,7 +12,7 @@
     "message": "정규식"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex를 사용하면 단 한 줄로 여러 페이지를 모니터링할 수 있습니다.##자세히 알아보려면 여기를 클릭하세요!"
+    "message": "Regex를 사용하면 단 한 줄로 여러 페이지를 모니터링할 수 있습니다.\u000A자세히 알아보려면 여기를 클릭하세요!"
   },
   "ih_opt_ttl": {
     "message": "모니터링할 유형:"
@@ -63,7 +63,7 @@
     "message": "오류가 발생하여 이 웹사이트의 데이터베이스를 제거할 수 없습니다."
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "이 URL에서는 프로토콜을 제거할 수 없습니다.##URL을 다시 확인하세요."
+    "message": "이 URL에서는 프로토콜을 제거할 수 없습니다.\u000AURL을 다시 확인하세요."
   },
   "notif_err_sldtld": {
     "message": "제공된 URL에는 두 번째 수준 또는 최상위 도메인(예: https://www.google.com URL의 \"google\" 또는 \"com\")이 없습니다."
@@ -72,10 +72,10 @@
     "message": "이 항목을 삭제하시겠습니까?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "이 항목을 제거하시겠습니까?##웹사이트가 자동으로 열리고 이미지 및/또는 링크 데이터베이스가 제거된 후 닫힙니다."
+    "message": "이 항목을 제거하시겠습니까?\u000A웹사이트가 자동으로 열리고 이미지 및/또는 링크 데이터베이스가 제거된 후 닫힙니다."
   },
   "cnfrm_err_sldtld": {
-    "message": "제공된 URL에는 두 번째 수준 또는 최상위 도메인(예: https://www.google.com URL의 \"google\" 또는 \"com\")이 없습니다.##계속하시겠습니까?"
+    "message": "제공된 URL에는 두 번째 수준 또는 최상위 도메인(예: https://www.google.com URL의 \"google\" 또는 \"com\")이 없습니다.\u000A계속하시겠습니까?"
   },
   "prompt_err_sldtld": {
     "message": "이 정규식 URL을 추가할 수 있도록 두 번째 수준 또는 최상위 도메인을 제공하세요."

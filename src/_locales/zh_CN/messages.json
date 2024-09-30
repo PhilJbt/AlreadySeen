@@ -12,7 +12,7 @@
     "message": "正则表达式"
   },
   "tl_opt_nfo_rgx": {
-    "message": "正则表达式允许仅用一行监控多个页面。##点击这里了解它！"
+    "message": "正则表达式允许仅用一行监控多个页面。\u000A点击这里了解它！"
   },
   "ih_opt_ttl": {
     "message": "输入要监控的内容："
@@ -63,7 +63,7 @@
     "message": "发生错误，无法删除该网站的数据库："
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "无法从此 URL 中删除协议。##再次检查您的 URL。"
+    "message": "无法从此 URL 中删除协议。\u000A再次检查您的 URL。"
   },
   "notif_err_sldtld": {
     "message": "给定的网址没有二级或顶级域（例如 https://www.google.com 网址中的“google”或“com”）。"
@@ -72,10 +72,10 @@
     "message": "您确定删除此条目吗？"
   },
   "cnfrm_delEntryStrict": {
-    "message": "您确定删除此条目吗？##网站将自动打开以删除图像和/或链接数据库，然后关闭。"
+    "message": "您确定删除此条目吗？\u000A网站将自动打开以删除图像和/或链接数据库，然后关闭。"
   },
   "cnfrm_err_sldtld": {
-    "message": "给定的网址没有二级或顶级域（例如 https://www.google.com 网址中的“google”或“com”）。##您确定要继续吗？"
+    "message": "给定的网址没有二级或顶级域（例如 https://www.google.com 网址中的“google”或“com”）。\u000A您确定要继续吗？"
   },
   "prompt_err_sldtld": {
     "message": "请提供二级或顶级域名，以便可以添加此正则表达式 URL。"

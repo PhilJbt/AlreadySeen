@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex memungkinkan untuk memantau beberapa halaman hanya dengan satu baris.##Klik di sini untuk mempelajarinya!"
+    "message": "Regex memungkinkan untuk memantau beberapa halaman hanya dengan satu baris.\u000AKlik di sini untuk mempelajarinya!"
   },
   "ih_opt_ttl": {
     "message": "Ketik untuk memantau:"
@@ -63,7 +63,7 @@
     "message": "Terjadi kesalahan, database situs web ini tidak dapat dihapus:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Tidak mungkin menghapus protokol dari URL ini.##Periksa URL Anda lagi."
+    "message": "Tidak mungkin menghapus protokol dari URL ini.\u000APeriksa URL Anda lagi."
   },
   "notif_err_sldtld": {
     "message": "Url yang diberikan tidak memiliki domain tingkat kedua atau tingkat atas (misalnya \"google\" atau \"com\" dari url https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Apakah Anda yakin akan menghapus entri ini?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Apakah Anda yakin akan menghapus entri ini?##Situs web akan otomatis dibuka untuk menghapus database gambar dan/atau tautan, lalu ditutup."
+    "message": "Apakah Anda yakin akan menghapus entri ini?\u000ASitus web akan otomatis dibuka untuk menghapus database gambar dan/atau tautan, lalu ditutup."
   },
   "cnfrm_err_sldtld": {
-    "message": "Url yang diberikan tidak memiliki domain tingkat kedua atau tingkat atas (misalnya \"google\" atau \"com\" dari url https://www.google.com).##Apakah Anda yakin untuk melanjutkan?"
+    "message": "Url yang diberikan tidak memiliki domain tingkat kedua atau tingkat atas (misalnya \"google\" atau \"com\" dari url https://www.google.com).\u000AApakah Anda yakin untuk melanjutkan?"
   },
   "prompt_err_sldtld": {
     "message": "Harap berikan domain tingkat kedua atau tingkat teratas agar URL regex ini dapat ditambahkan."

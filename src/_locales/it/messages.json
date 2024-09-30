@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex consente di monitorare più pagine con una sola riga.##Clicca qui per saperne di più!"
+    "message": "Regex consente di monitorare più pagine con una sola riga.\u000AClicca qui per saperne di più!"
   },
   "ih_opt_ttl": {
     "message": "Digita per monitorare:"
@@ -63,7 +63,7 @@
     "message": "Si è verificato un errore, non è stato possibile rimuovere il database di questo sito web:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Impossibile rimuovere i protocolli da questo URL.##Controlla di nuovo l'URL."
+    "message": "Impossibile rimuovere i protocolli da questo URL.\u000AControlla di nuovo l'URL."
   },
   "notif_err_sldtld": {
     "message": "L'URL fornito non ha un dominio di secondo livello o di primo livello (ad esempio \"google\" o \"com\" dall'URL https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Sei sicuro di rimuovere questa voce?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Sei sicuro di rimuovere questa voce?##Il sito web verrà aperto automaticamente per rimuovere il database delle immagini e/o dei collegamenti, quindi chiuso."
+    "message": "Sei sicuro di rimuovere questa voce?\u000AIl sito web verrà aperto automaticamente per rimuovere il database delle immagini e/o dei collegamenti, quindi chiuso."
   },
   "cnfrm_err_sldtld": {
-    "message": "L'URL fornito non ha un dominio di secondo livello o di primo livello (ad esempio \"google\" o \"com\" dall'URL https://www.google.com).##Sei sicuro di continuare?"
+    "message": "L'URL fornito non ha un dominio di secondo livello o di primo livello (ad esempio \"google\" o \"com\" dall'URL https://www.google.com).\u000ASei sicuro di continuare?"
   },
   "prompt_err_sldtld": {
     "message": "Fornisci un dominio di secondo livello o di primo livello in modo che sia possibile aggiungere questo URL regex."

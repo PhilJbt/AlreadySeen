@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Binibigyang-daan ng Regex na subaybayan ang maramihang mga pahina na may isang linya lamang.##Mag-click dito upang malaman ang tungkol dito!"
+    "message": "Binibigyang-daan ng Regex na subaybayan ang maramihang mga pahina na may isang linya lamang.\u000AMag-click dito upang malaman ang tungkol dito!"
   },
   "ih_opt_ttl": {
     "message": "I-type ang susubaybayan:"
@@ -63,7 +63,7 @@
     "message": "Nagkaroon ng error, hindi maalis ang database ng website na ito:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Imposibleng alisin ang mga protocol sa URL na ito.##Suriin muli ang iyong URL."
+    "message": "Imposibleng alisin ang mga protocol sa URL na ito.\u000ASuriin muli ang iyong URL."
   },
   "notif_err_sldtld": {
     "message": "Ang ibinigay na url ay walang pangalawang antas o pinakamataas na antas ng domain (hal. \"google\" o \"com\" mula sa https://www.google.com na url)."
@@ -72,10 +72,10 @@
     "message": "Sigurado ka bang aalisin ang entry na ito?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Sigurado ka bang aalisin ang entry na ito?##Awtomatikong bubuksan ang website upang alisin ang database ng mga imahe at/o link, at pagkatapos ay isasara."
+    "message": "Sigurado ka bang aalisin ang entry na ito?\u000AAwtomatikong bubuksan ang website upang alisin ang database ng mga imahe at/o link, at pagkatapos ay isasara."
   },
   "cnfrm_err_sldtld": {
-    "message": "Ang ibinigay na url ay walang pangalawang antas o pinakamataas na antas ng domain (hal. \"google\" o \"com\" mula sa https://www.google.com url).##Sigurado ka bang magpapatuloy?"
+    "message": "Ang ibinigay na url ay walang pangalawang antas o pinakamataas na antas ng domain (hal. \"google\" o \"com\" mula sa https://www.google.com url).\u000ASigurado ka bang magpapatuloy?"
   },
   "prompt_err_sldtld": {
     "message": "Mangyaring magbigay ng pangalawang antas o pinakamataas na antas ng domain upang maidagdag ang regex URL na ito."

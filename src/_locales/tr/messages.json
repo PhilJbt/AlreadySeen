@@ -12,7 +12,7 @@
     "message": "Normal ifade"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex, birden fazla sayfayı tek satırla izlemeye olanak tanır.##Bunu öğrenmek için buraya tıklayın!"
+    "message": "Regex, birden fazla sayfayı tek satırla izlemeye olanak tanır.\u000ABunu öğrenmek için buraya tıklayın!"
   },
   "ih_opt_ttl": {
     "message": "İzlemek için yazın:"
@@ -63,7 +63,7 @@
     "message": "Bir hata oluştu; bu web sitesinin veritabanı kaldırılamadı:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Bu URL'den protokolleri kaldırmak imkansız.##URL'nizi tekrar kontrol edin."
+    "message": "Bu URL'den protokolleri kaldırmak imkansız.\u000AURL'nizi tekrar kontrol edin."
   },
   "notif_err_sldtld": {
     "message": "Belirtilen URL'nin ikinci düzey veya üst düzey alan adı yok (ör. https://www.google.com URL'sindeki \"google\" veya \"com\")."
@@ -72,10 +72,10 @@
     "message": "Bu girişi kaldıracağınızdan emin misiniz?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Bu girişi kaldıracağınızdan emin misiniz?##Resimler ve/veya bağlantı veritabanını kaldırmak için web sitesi otomatik olarak açılacak ve ardından kapatılacaktır."
+    "message": "Bu girişi kaldıracağınızdan emin misiniz?\u000AResimler ve/veya bağlantı veritabanını kaldırmak için web sitesi otomatik olarak açılacak ve ardından kapatılacaktır."
   },
   "cnfrm_err_sldtld": {
-    "message": "Verilen URL'de ikinci düzey veya üst düzey alan adı yok (ör. https://www.google.com URL'sindeki \"google\" veya \"com\").##Devam edeceğinizden emin misiniz?"
+    "message": "Verilen URL'de ikinci düzey veya üst düzey alan adı yok (ör. https://www.google.com URL'sindeki \"google\" veya \"com\").\u000ADevam edeceğinizden emin misiniz?"
   },
   "prompt_err_sldtld": {
     "message": "Bu normal ifade URL'sinin eklenebilmesi için lütfen ikinci düzey veya üst düzey bir alan adı sağlayın."

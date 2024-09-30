@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex võimaldab jälgida mitut lehte ainult ühe reaga.##Selle kohta lisateabe saamiseks klõpsake siin!"
+    "message": "Regex võimaldab jälgida mitut lehte ainult ühe reaga.\u000ASelle kohta lisateabe saamiseks klõpsake siin!"
   },
   "ih_opt_ttl": {
     "message": "Sisestage jälgimiseks:"
@@ -63,7 +63,7 @@
     "message": "Ilmnes viga, selle veebisaidi andmebaasi ei saanud eemaldada:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Sellelt URL-ilt on võimatu protokolle eemaldada.##Kontrollige oma URL-i uuesti."
+    "message": "Sellelt URL-ilt on võimatu protokolle eemaldada.\u000AKontrollige oma URL-i uuesti."
   },
   "notif_err_sldtld": {
     "message": "Antud URL-il ei ole teise taseme ega ülataseme domeeni (nt \"google\" või \"com\" https://www.google.com-i URL-ilt)."
@@ -72,10 +72,10 @@
     "message": "Kas olete kindel, et eemaldate selle kirje?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Kas olete kindel, et eemaldate selle kirje?##Veebisait avatakse automaatselt piltide ja/või linkide andmebaasi eemaldamiseks ja seejärel suletakse."
+    "message": "Kas olete kindel, et eemaldate selle kirje?\u000AVeebisait avatakse automaatselt piltide ja/või linkide andmebaasi eemaldamiseks ja seejärel suletakse."
   },
   "cnfrm_err_sldtld": {
-    "message": "Antud URL-il ei ole teise taseme ega ülataseme domeeni (nt \"google\" või \"com\" https://www.google.com-i URL-ist).##Kas jätkate kindlasti?"
+    "message": "Antud URL-il ei ole teise taseme ega ülataseme domeeni (nt \"google\" või \"com\" https://www.google.com-i URL-ist).\u000AKas jätkate kindlasti?"
   },
   "prompt_err_sldtld": {
     "message": "Sisestage teise taseme või ülataseme domeen, et seda regex-URL-i saaks lisada."

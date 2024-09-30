@@ -12,7 +12,7 @@
     "message": "expresión regular"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex permite monitorear múltiples páginas con una sola línea.##¡Haga clic aquí para obtener más información!"
+    "message": "Regex permite monitorear múltiples páginas con una sola línea.\u000A¡Haga clic aquí para obtener más información!"
   },
   "ih_opt_ttl": {
     "message": "Tipo a monitorear:"
@@ -63,7 +63,7 @@
     "message": "Se produjo un error, la base de datos de este sitio web no se pudo eliminar:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Es imposible eliminar protocolos de esta URL.##Comprueba tu URL nuevamente."
+    "message": "Es imposible eliminar protocolos de esta URL.\u000AComprueba tu URL nuevamente."
   },
   "notif_err_sldtld": {
     "message": "La URL proporcionada no tiene dominio de segundo nivel ni de nivel superior (por ejemplo, \"google\" o \"com\" de la URL https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "¿Estás seguro de eliminar esta entrada?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "¿Está seguro de eliminar esta entrada?##El sitio web se abrirá automáticamente para eliminar la base de datos de imágenes y/o enlaces y luego se cerrará."
+    "message": "¿Está seguro de eliminar esta entrada?\u000AEl sitio web se abrirá automáticamente para eliminar la base de datos de imágenes y/o enlaces y luego se cerrará."
   },
   "cnfrm_err_sldtld": {
-    "message": "La URL proporcionada no tiene dominio de segundo nivel ni de nivel superior (por ejemplo, \"google\" o \"com\" de la URL https://www.google.com).##¿Estás seguro de continuar?"
+    "message": "La URL proporcionada no tiene dominio de segundo nivel ni de nivel superior (por ejemplo, \"google\" o \"com\" de la URL https://www.google.com).\u000A¿Estás seguro de continuar?"
   },
   "prompt_err_sldtld": {
     "message": "Proporcione un dominio de segundo nivel o de nivel superior para poder agregar esta URL de expresión regular."

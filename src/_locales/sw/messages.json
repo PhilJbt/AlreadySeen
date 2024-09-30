@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex inaruhusu kufuatilia kurasa nyingi kwa mstari mmoja pekee.##Bofya hapa ili kujifunza kuihusu!"
+    "message": "Regex inaruhusu kufuatilia kurasa nyingi kwa mstari mmoja pekee.\u000ABofya hapa ili kujifunza kuihusu!"
   },
   "ih_opt_ttl": {
     "message": "Andika ili kufuatilia:"
@@ -63,7 +63,7 @@
     "message": "Hitilafu imetokea, hifadhidata ya tovuti hii haikuweza kuondolewa:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Haiwezekani kuondoa itifaki kutoka kwa URL hii.##Angalia URL yako tena."
+    "message": "Haiwezekani kuondoa itifaki kutoka kwa URL hii.\u000AAngalia URL yako tena."
   },
   "notif_err_sldtld": {
     "message": "Url iliyotolewa haina kiwango cha pili au kikoa cha kiwango cha juu (k.m. \"google\" au \"com\" kutoka url ya https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Je, una uhakika wa kuondoa ingizo hili?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Je, una uhakika wa kuondoa ingizo hili?##Tovuti itafunguliwa kiotomatiki ili kuondoa hifadhidata ya picha na/au viungo, na kisha kufungwa."
+    "message": "Je, una uhakika wa kuondoa ingizo hili?\u000ATovuti itafunguliwa kiotomatiki ili kuondoa hifadhidata ya picha na/au viungo, na kisha kufungwa."
   },
   "cnfrm_err_sldtld": {
-    "message": "Url iliyotolewa haina kiwango cha pili au kikoa cha kiwango cha juu (k.m. \"google\" au \"com\" kutoka url ya https://www.google.com).##Je, una uhakika utaendelea?"
+    "message": "Url iliyotolewa haina kiwango cha pili au kikoa cha kiwango cha juu (k.m. \"google\" au \"com\" kutoka url ya https://www.google.com).\u000AJe, una uhakika utaendelea?"
   },
   "prompt_err_sldtld": {
     "message": "Tafadhali toa kikoa cha kiwango cha pili au cha juu ili URL hii ya regex iweze kuongezwa."

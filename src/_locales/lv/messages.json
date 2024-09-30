@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex ļauj pārraudzīt vairākas lapas, izmantojot tikai vienu rindiņu.##Noklikšķiniet šeit, lai uzzinātu par to!"
+    "message": "Regex ļauj pārraudzīt vairākas lapas, izmantojot tikai vienu rindiņu.\u000ANoklikšķiniet šeit, lai uzzinātu par to!"
   },
   "ih_opt_ttl": {
     "message": "Ierakstiet, lai uzraudzītu:"
@@ -63,7 +63,7 @@
     "message": "Radās kļūda, šīs vietnes datu bāzi nevarēja noņemt:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Nevar noņemt protokolus no šī URL.##Vēlreiz pārbaudiet savu URL."
+    "message": "Nevar noņemt protokolus no šī URL.\u000AVēlreiz pārbaudiet savu URL."
   },
   "notif_err_sldtld": {
     "message": "Norādītajam URL nav otrā līmeņa vai augstākā līmeņa domēna (piemēram, \"google\" vai \"com\" no https://www.google.com URL)."
@@ -72,10 +72,10 @@
     "message": "Vai tiešām vēlaties noņemt šo ierakstu?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Vai tiešām vēlaties noņemt šo ierakstu?##Tīmekļa vietne tiks automātiski atvērta, lai noņemtu attēlu un/vai saišu datubāzi, un pēc tam tiks aizvērta."
+    "message": "Vai tiešām vēlaties noņemt šo ierakstu?\u000ATīmekļa vietne tiks automātiski atvērta, lai noņemtu attēlu un/vai saišu datubāzi, un pēc tam tiks aizvērta."
   },
   "cnfrm_err_sldtld": {
-    "message": "Norādītajam URL nav otrā līmeņa vai augstākā līmeņa domēna (piemēram, \"google\" vai \"com\" no https://www.google.com url).##Vai tiešām turpināt?"
+    "message": "Norādītajam URL nav otrā līmeņa vai augstākā līmeņa domēna (piemēram, \"google\" vai \"com\" no https://www.google.com url).\u000AVai tiešām turpināt?"
   },
   "prompt_err_sldtld": {
     "message": "Lūdzu, norādiet otrā līmeņa vai augstākā līmeņa domēnu, lai varētu pievienot šo regulārā izteiksmes URL."

@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex mahdollistaa useiden sivujen seurannan vain yhdellä rivillä.##Klikkaa tästä saadaksesi lisätietoja siitä!"
+    "message": "Regex mahdollistaa useiden sivujen seurannan vain yhdellä rivillä.\u000AKlikkaa tästä saadaksesi lisätietoja siitä!"
   },
   "ih_opt_ttl": {
     "message": "Kirjoita seurataksesi:"
@@ -63,7 +63,7 @@
     "message": "Tapahtui virhe, tämän verkkosivuston tietokantaa ei voitu poistaa:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Tästä URL-osoitteesta on mahdotonta poistaa protokollia.##Tarkista URL-osoite uudelleen."
+    "message": "Tästä URL-osoitteesta on mahdotonta poistaa protokollia.\u000ATarkista URL-osoite uudelleen."
   },
   "notif_err_sldtld": {
     "message": "Annetulla URL-osoitteella ei ole toisen tason tai ylätason verkkotunnusta (esim. \"google\" tai \"com\" https://www.google.com-URL-osoitteesta)."
@@ -72,10 +72,10 @@
     "message": "Haluatko varmasti poistaa tämän merkinnän?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Oletko varma, että poistat tämän merkinnän?##Sivusto avataan automaattisesti kuvien ja/tai linkkien poistamiseksi ja suljetaan sitten."
+    "message": "Oletko varma, että poistat tämän merkinnän?\u000ASivusto avataan automaattisesti kuvien ja/tai linkkien poistamiseksi ja suljetaan sitten."
   },
   "cnfrm_err_sldtld": {
-    "message": "Annetussa URL-osoitteessa ei ole toisen tason tai ylätason verkkotunnusta (esim. \"google\" tai \"com\" https://www.google.com-URL-osoitteesta).##Jatkatko varmasti?"
+    "message": "Annetussa URL-osoitteessa ei ole toisen tason tai ylätason verkkotunnusta (esim. \"google\" tai \"com\" https://www.google.com-URL-osoitteesta).\u000AJatkatko varmasti?"
   },
   "prompt_err_sldtld": {
     "message": "Anna toisen tason tai ylätason verkkotunnus, jotta tämä regex-URL-osoite voidaan lisätä."

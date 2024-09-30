@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex tillåter att övervaka flera sidor med bara en rad.##Klicka här för att lära dig mer om det!"
+    "message": "Regex tillåter att övervaka flera sidor med bara en rad.\u000AKlicka här för att lära dig mer om det!"
   },
   "ih_opt_ttl": {
     "message": "Typ att övervaka:"
@@ -63,7 +63,7 @@
     "message": "Ett fel uppstod, den här webbplatsens databas kunde inte tas bort:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Omöjligt att ta bort protokoll från denna URL.##Kontrollera din URL igen."
+    "message": "Omöjligt att ta bort protokoll från denna URL.\u000AKontrollera din URL igen."
   },
   "notif_err_sldtld": {
     "message": "Den angivna webbadressen har ingen andranivå- eller toppdomän (t.ex. \"google\" eller \"com\" från https://www.google.com-webbadressen)."
@@ -72,10 +72,10 @@
     "message": "Är du säker på att ta bort den här posten?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Är du säker på att ta bort denna post?##Webbplatsen öppnas automatiskt för att ta bort bilderna och/eller länkdatabasen och stängs sedan."
+    "message": "Är du säker på att ta bort denna post?\u000AWebbplatsen öppnas automatiskt för att ta bort bilderna och/eller länkdatabasen och stängs sedan."
   },
   "cnfrm_err_sldtld": {
-    "message": "Den angivna webbadressen har ingen andra nivå eller toppdomän (t.ex. \"google\" eller \"com\" från https://www.google.com url).##Är du säker på att du vill fortsätta?"
+    "message": "Den angivna webbadressen har ingen andra nivå eller toppdomän (t.ex. \"google\" eller \"com\" från https://www.google.com url).\u000AÄr du säker på att du vill fortsätta?"
   },
   "prompt_err_sldtld": {
     "message": "Ange en andranivå- eller toppdomän så att denna regex-URL kan läggas till."

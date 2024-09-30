@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex umožňuje sledovat více stránek pouze jedním řádkem.##Klikněte sem a dozvíte se o tom!"
+    "message": "Regex umožňuje sledovat více stránek pouze jedním řádkem.\u000AKlikněte sem a dozvíte se o tom!"
   },
   "ih_opt_ttl": {
     "message": "Typ ke sledování:"
@@ -63,7 +63,7 @@
     "message": "Došlo k chybě, databázi tohoto webu nelze odstranit:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Protokoly z této adresy URL nelze odstranit.##Znovu zkontrolujte adresu URL."
+    "message": "Protokoly z této adresy URL nelze odstranit.\u000AZnovu zkontrolujte adresu URL."
   },
   "notif_err_sldtld": {
     "message": "Zadaná adresa URL nemá žádnou doménu druhé úrovně ani domény nejvyšší úrovně (např. „google“ nebo „com“ z adresy URL https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Opravdu chcete tento záznam odstranit?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Opravdu chcete odstranit tento záznam?##Webová stránka se automaticky otevře, aby se odstranila databáze obrázků a/nebo odkazů, a poté se zavře."
+    "message": "Opravdu chcete odstranit tento záznam?\u000AWebová stránka se automaticky otevře, aby se odstranila databáze obrázků a/nebo odkazů, a poté se zavře."
   },
   "cnfrm_err_sldtld": {
-    "message": "Zadaná adresa URL nemá doménu druhé úrovně ani domény nejvyšší úrovně (např. „google“ nebo „com“ z adresy https://www.google.com).##Opravdu chcete pokračovat?"
+    "message": "Zadaná adresa URL nemá doménu druhé úrovně ani domény nejvyšší úrovně (např. „google“ nebo „com“ z adresy https://www.google.com).\u000AOpravdu chcete pokračovat?"
   },
   "prompt_err_sldtld": {
     "message": "Uveďte prosím doménu druhé úrovně nebo domény nejvyšší úrovně, aby bylo možné tuto adresu URL regulárního výrazu přidat."

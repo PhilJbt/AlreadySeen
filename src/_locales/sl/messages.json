@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex omogoča spremljanje več strani s samo eno vrstico.##Kliknite tukaj, če želite izvedeti več o tem!"
+    "message": "Regex omogoča spremljanje več strani s samo eno vrstico.\u000AKliknite tukaj, če želite izvedeti več o tem!"
   },
   "ih_opt_ttl": {
     "message": "Vnesite za spremljanje:"
@@ -63,7 +63,7 @@
     "message": "Prišlo je do napake, baze podatkov tega spletnega mesta ni bilo mogoče odstraniti:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Protokolov s tega URL-ja ni mogoče odstraniti.##Znova preverite svoj URL."
+    "message": "Protokolov s tega URL-ja ni mogoče odstraniti.\u000AZnova preverite svoj URL."
   },
   "notif_err_sldtld": {
     "message": "Navedeni url nima domene druge ali najvišje ravni (npr. »google« ali »com« iz URL-ja https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Ali ste prepričani, da želite odstraniti ta vnos?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Ali ste prepričani, da želite odstraniti ta vnos?##Spletno mesto se bo samodejno odprlo, da se odstrani zbirka slik in/ali povezav, nato pa se bo zaprlo."
+    "message": "Ali ste prepričani, da želite odstraniti ta vnos?\u000ASpletno mesto se bo samodejno odprlo, da se odstrani zbirka slik in/ali povezav, nato pa se bo zaprlo."
   },
   "cnfrm_err_sldtld": {
-    "message": "Navedeni url nima domene druge ali najvišje ravni (npr. »google« ali »com« iz URL-ja https://www.google.com).##Ali ste prepričani, da boste nadaljevali?"
+    "message": "Navedeni url nima domene druge ali najvišje ravni (npr. »google« ali »com« iz URL-ja https://www.google.com).\u000AAli ste prepričani, da boste nadaljevali?"
   },
   "prompt_err_sldtld": {
     "message": "Navedite domeno druge ali najvišje ravni, da bo mogoče dodati ta URL regularnega izraza."

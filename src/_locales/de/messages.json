@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex ermöglicht die Überwachung mehrerer Seiten mit nur einer Zeile.##Klicken Sie hier, um mehr darüber zu erfahren!"
+    "message": "Regex ermöglicht die Überwachung mehrerer Seiten mit nur einer Zeile.\u000AKlicken Sie hier, um mehr darüber zu erfahren!"
   },
   "ih_opt_ttl": {
     "message": "Geben Sie Folgendes ein, um Folgendes zu überwachen:"
@@ -63,7 +63,7 @@
     "message": "Es ist ein Fehler aufgetreten, die Datenbank dieser Website konnte nicht entfernt werden:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Es ist nicht möglich, Protokolle von dieser URL zu entfernen.##Überprüfen Sie Ihre URL noch einmal."
+    "message": "Es ist nicht möglich, Protokolle von dieser URL zu entfernen.\u000AÜberprüfen Sie Ihre URL noch einmal."
   },
   "notif_err_sldtld": {
     "message": "Die angegebene URL hat keine Second-Level- oder Top-Level-Domain (z. B. „google“ oder „com“ aus der URL https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Möchten Sie diesen Eintrag wirklich entfernen?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Möchten Sie diesen Eintrag wirklich entfernen?##Die Website wird automatisch geöffnet, um die Bilder- und/oder Linkdatenbank zu entfernen, und dann geschlossen."
+    "message": "Möchten Sie diesen Eintrag wirklich entfernen?\u000ADie Website wird automatisch geöffnet, um die Bilder- und/oder Linkdatenbank zu entfernen, und dann geschlossen."
   },
   "cnfrm_err_sldtld": {
-    "message": "Die angegebene URL hat keine Second-Level- oder Top-Level-Domain (z. B. „google“ oder „com“ aus der URL https://www.google.com).##Sind Sie sicher, dass Sie fortfahren möchten?"
+    "message": "Die angegebene URL hat keine Second-Level- oder Top-Level-Domain (z. B. „google“ oder „com“ aus der URL https://www.google.com).\u000ASind Sie sicher, dass Sie fortfahren möchten?"
   },
   "prompt_err_sldtld": {
     "message": "Bitte geben Sie eine Second-Level- oder Top-Level-Domain an, damit diese Regex-URL hinzugefügt werden kann."

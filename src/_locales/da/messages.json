@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex gør det muligt at overvåge flere sider med kun én linje.##Klik her for at lære om det!"
+    "message": "Regex gør det muligt at overvåge flere sider med kun én linje.\u000AKlik her for at lære om det!"
   },
   "ih_opt_ttl": {
     "message": "Type for at overvåge:"
@@ -63,7 +63,7 @@
     "message": "Der opstod en fejl, denne hjemmesides database kunne ikke fjernes:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Det er umuligt at fjerne protokoller fra denne URL.##Tjek din URL igen."
+    "message": "Det er umuligt at fjerne protokoller fra denne URL.\u000ATjek din URL igen."
   },
   "notif_err_sldtld": {
     "message": "Den angivne url har ikke noget andet niveau eller topdomæne (f.eks. \"google\" eller \"com\" fra https://www.google.com url'en)."
@@ -72,10 +72,10 @@
     "message": "Er du sikker på at du vil fjerne denne post?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Er du sikker på at fjerne denne post?##Webstedet åbnes automatisk for at fjerne databasen med billeder og/eller links og lukkes derefter."
+    "message": "Er du sikker på at fjerne denne post?\u000AWebstedet åbnes automatisk for at fjerne databasen med billeder og/eller links og lukkes derefter."
   },
   "cnfrm_err_sldtld": {
-    "message": "Den angivne url har intet domæne på andet niveau eller topniveau (f.eks. \"google\" eller \"com\" fra https://www.google.com url).##Er du sikker på at du vil fortsætte?"
+    "message": "Den angivne url har intet domæne på andet niveau eller topniveau (f.eks. \"google\" eller \"com\" fra https://www.google.com url).\u000AEr du sikker på at du vil fortsætte?"
   },
   "prompt_err_sldtld": {
     "message": "Angiv et domæne på andet niveau eller topniveau, så denne regex-URL kan føjes til."

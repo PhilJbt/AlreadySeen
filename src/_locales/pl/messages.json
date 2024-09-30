@@ -12,7 +12,7 @@
     "message": "Wyrażenie regularne"
   },
   "tl_opt_nfo_rgx": {
-    "message": "Regex pozwala monitorować wiele stron za pomocą tylko jednej linii.##Kliknij tutaj, aby się o tym dowiedzieć!"
+    "message": "Regex pozwala monitorować wiele stron za pomocą tylko jednej linii.\u000AKliknij tutaj, aby się o tym dowiedzieć!"
   },
   "ih_opt_ttl": {
     "message": "Wpisz do monitorowania:"
@@ -63,7 +63,7 @@
     "message": "Wystąpił błąd, nie można usunąć bazy danych tej witryny:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Nie można usunąć protokołów z tego adresu URL.##Sprawdź ponownie adres URL."
+    "message": "Nie można usunąć protokołów z tego adresu URL.\u000ASprawdź ponownie adres URL."
   },
   "notif_err_sldtld": {
     "message": "Podany adres URL nie ma domeny drugiego lub najwyższego poziomu (np. „google” lub „com” z adresu URL https://www.google.com)."
@@ -72,10 +72,10 @@
     "message": "Czy na pewno chcesz usunąć ten wpis?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Czy na pewno chcesz usunąć ten wpis?##Strona zostanie automatycznie otwarta w celu usunięcia bazy danych obrazów i/lub linków, a następnie zamknięta."
+    "message": "Czy na pewno chcesz usunąć ten wpis?\u000AStrona zostanie automatycznie otwarta w celu usunięcia bazy danych obrazów i/lub linków, a następnie zamknięta."
   },
   "cnfrm_err_sldtld": {
-    "message": "Podany adres URL nie ma domeny drugiego ani najwyższego poziomu (np. „google” lub „com” z adresu URL https://www.google.com).##Czy na pewno kontynuować?"
+    "message": "Podany adres URL nie ma domeny drugiego ani najwyższego poziomu (np. „google” lub „com” z adresu URL https://www.google.com).\u000ACzy na pewno kontynuować?"
   },
   "prompt_err_sldtld": {
     "message": "Podaj domenę drugiego lub najwyższego poziomu, aby można było dodać do tego adresu URL wyrażenia regularnego."

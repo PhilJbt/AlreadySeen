@@ -12,7 +12,7 @@
     "message": "Regex"
   },
   "tl_opt_nfo_rgx": {
-    "message": "A Regex lehetővé teszi több oldal egyetlen sorral történő figyelését.##Kattintson ide, ha többet szeretne tudni róla!"
+    "message": "A Regex lehetővé teszi több oldal egyetlen sorral történő figyelését.\u000AKattintson ide, ha többet szeretne tudni róla!"
   },
   "ih_opt_ttl": {
     "message": "Írja be a figyeléshez:"
@@ -63,7 +63,7 @@
     "message": "Hiba történt, a webhely adatbázisa nem távolítható el:"
   },
   "notif_err_protocolsRemove_fail": {
-    "message": "Lehetetlen eltávolítani a protokollokat erről az URL-ről.##Ellenőrizze újra az URL-t."
+    "message": "Lehetetlen eltávolítani a protokollokat erről az URL-ről.\u000AEllenőrizze újra az URL-t."
   },
   "notif_err_sldtld": {
     "message": "A megadott URL-nek nincs második vagy legfelső szintű domainje (pl. „google” vagy „com” a https://www.google.com URL-ből)."
@@ -72,10 +72,10 @@
     "message": "Biztosan eltávolítja ezt a bejegyzést?"
   },
   "cnfrm_delEntryStrict": {
-    "message": "Biztosan eltávolítja ezt a bejegyzést?##A webhely automatikusan megnyílik a képek és/vagy hivatkozások adatbázisának eltávolításához, majd bezárja."
+    "message": "Biztosan eltávolítja ezt a bejegyzést?\u000AA webhely automatikusan megnyílik a képek és/vagy hivatkozások adatbázisának eltávolításához, majd bezárja."
   },
   "cnfrm_err_sldtld": {
-    "message": "A megadott URL-nek nincs második vagy legfelső szintű domainje (pl. „google” vagy „com” a https://www.google.com URL-ből).##Biztosan folytatja?"
+    "message": "A megadott URL-nek nincs második vagy legfelső szintű domainje (pl. „google” vagy „com” a https://www.google.com URL-ből).\u000ABiztosan folytatja?"
   },
   "prompt_err_sldtld": {
     "message": "Adjon meg egy második vagy legfelső szintű domaint, hogy hozzá lehessen adni ezt a reguláris kifejezést."
