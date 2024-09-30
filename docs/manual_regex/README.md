@@ -24,8 +24,8 @@ On the contrary, if you prefer to exclude anything not expected, there is what y
 Why write `https:\/\/example\.com` instead of `https://example.com`? Because some characters are literally used by the Regex.\
 For example, the Regex **`page=[0-9]+`** detects:
 
-> The string **`page=`**,
-> then **`any digit from 0 to 9`**,
+> The string **`page=`**,\
+> then **`any digit from 0 to 9`**,\
 > with at least one repetition.
 
 This way, it is possible to detect **`page=1`** as well as **`page=96`**.
