@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extTitle__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "contextMenus",
+    "tabs",
+		"downloads"
+  ],
+	"host_permissions": [
+		"<all_urls>"
+	],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_icon": "img/icn/icn128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["psl.min.js", "urlTools.js", "content.js"],
+      "run_at": "document_idle"
+    }
+	],
+  "icons": {
+    "16": "img/icn/icn16.png",
+    "48": "img/icn/icn48.png",
+    "128": "img/icn/icn128.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Evidențiați link-uri și/sau imagini noi pe paginile dvs. web preferate!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex sau URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex vă permite să monitorizați mai multe pagini cu o singură linie.##Faceți clic aici pentru a afla despre asta!"
+  },
+  "ih_opt_ttl": {
+    "message": "Tip de monitorizat:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Imagini"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Suprafața minimă a imaginii (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Legături"
+  },
+  "vl_opt_btn_add": {
+    "message": "Adăuga"
+  },
+  "ih_opt_btn_import": {
+    "message": "Import"
+  },
+  "vl_opt_btn_export": {
+    "message": "Export"
+  },
+  "lr_err_deldb": {
+    "message": "A apărut o eroare, ștergerea IndexedDb a eșuat."
+  },
+  "lr_err_malformedurl": {
+    "message": "Adresă URL incorectă."
+  },
+  "lr_err_fromdb": {
+    "message": "Adresa URL nu a fost găsită."
+  },
+  "notif_title": {
+    "message": "Avertizare!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Vă rugăm să verificați cel puțin un tip de element de monitorizat (de exemplu, imagine sau link)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Adresa URL dată nu are protocoale (adică http:// sau https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Regex-ul dat nu este valid."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Baza de date a acestui site web a fost eliminată. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "A apărut o eroare, baza de date a acestui site web nu a putut fi eliminată:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Este imposibil să eliminați protocoalele din această adresă URL.##Verificați din nou adresa URL."
+  },
+  "notif_err_sldtld": {
+    "message": "Adresa URL dată nu are un domeniu de nivel al doilea sau de nivel superior (de exemplu, „google” sau „com” de la adresa URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Sunteți sigur că eliminați această intrare?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Sunteți sigur că eliminați această intrare?##Site-ul web va fi deschis automat pentru a elimina baza de date cu imagini și/sau link-uri, apoi va fi închis."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Adresa URL dată nu are un domeniu de nivel al doilea sau de nivel superior (de exemplu, „google” sau „com” de la https://www.google.com URL).##Sigur veți continua?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Vă rugăm să furnizați un domeniu de nivel al doilea sau de nivel superior, astfel încât această adresă URL regex să poată fi adăugată."
+  }
+}

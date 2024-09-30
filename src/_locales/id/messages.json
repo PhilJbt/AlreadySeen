@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Sorot tautan dan/atau gambar baru di halaman web favorit Anda!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex atau url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex memungkinkan untuk memantau beberapa halaman hanya dengan satu baris.##Klik di sini untuk mempelajarinya!"
+  },
+  "ih_opt_ttl": {
+    "message": "Ketik untuk memantau:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Gambar"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Area gambar minimum (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Tautan"
+  },
+  "vl_opt_btn_add": {
+    "message": "Menambahkan"
+  },
+  "ih_opt_btn_import": {
+    "message": "Impor"
+  },
+  "vl_opt_btn_export": {
+    "message": "Ekspor"
+  },
+  "lr_err_deldb": {
+    "message": "Terjadi kesalahan, penghapusan IndexedDb gagal."
+  },
+  "lr_err_malformedurl": {
+    "message": "Url salah format."
+  },
+  "lr_err_fromdb": {
+    "message": "Url tidak ditemukan."
+  },
+  "notif_title": {
+    "message": "Peringatan!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Harap periksa setidaknya satu jenis elemen yang akan dipantau (yaitu gambar atau tautan)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Url yang diberikan tidak memiliki protokol (yaitu http:// atau https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Regex yang diberikan tidak valid."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Basis data situs web ini telah dihapus. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Terjadi kesalahan, database situs web ini tidak dapat dihapus:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Tidak mungkin menghapus protokol dari URL ini.##Periksa URL Anda lagi."
+  },
+  "notif_err_sldtld": {
+    "message": "Url yang diberikan tidak memiliki domain tingkat kedua atau tingkat atas (misalnya \"google\" atau \"com\" dari url https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Apakah Anda yakin akan menghapus entri ini?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Apakah Anda yakin akan menghapus entri ini?##Situs web akan otomatis dibuka untuk menghapus database gambar dan/atau tautan, lalu ditutup."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Url yang diberikan tidak memiliki domain tingkat kedua atau tingkat atas (misalnya \"google\" atau \"com\" dari url https://www.google.com).##Apakah Anda yakin untuk melanjutkan?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Harap berikan domain tingkat kedua atau tingkat teratas agar URL regex ini dapat ditambahkan."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Pažymėkite naujas nuorodas ir (arba) vaizdus savo mėgstamuose tinklalapiuose!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex arba url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex leidžia stebėti kelis puslapius tik viena eilute.##Spustelėkite čia, kad sužinotumėte apie tai!"
+  },
+  "ih_opt_ttl": {
+    "message": "Norėdami stebėti, įveskite:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Vaizdai"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Mažiausias vaizdo plotas (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Nuorodos"
+  },
+  "vl_opt_btn_add": {
+    "message": "Pridėti"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importuoti"
+  },
+  "vl_opt_btn_export": {
+    "message": "Eksportuoti"
+  },
+  "lr_err_deldb": {
+    "message": "Įvyko klaida, IndexedDb ištrinti nepavyko."
+  },
+  "lr_err_malformedurl": {
+    "message": "Netinkamai suformuotas URL."
+  },
+  "lr_err_fromdb": {
+    "message": "URL nerastas."
+  },
+  "notif_title": {
+    "message": "Įspėjimas!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Patikrinkite bent vieno elemento tipą, kurį norite stebėti (pvz., vaizdą arba nuorodą)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Pateiktame URL nėra protokolų (pvz., http:// arba https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Pateikta reguliarioji išraiška negalioja."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Šios svetainės duomenų bazė pašalinta. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Įvyko klaida, šios svetainės duomenų bazės pašalinti nepavyko:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Neįmanoma pašalinti protokolų iš šio URL.##Dar kartą patikrinkite URL."
+  },
+  "notif_err_sldtld": {
+    "message": "Pateiktame URL nėra antrojo ar aukščiausio lygio domeno (pvz., „google“ arba „com“ iš https://www.google.com URL)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Ar tikrai pašalinsite šį įrašą?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Ar tikrai pašalinsite šį įrašą?##Svetainė bus automatiškai atidaryta, kad būtų pašalinti vaizdai ir (arba) nuorodų duomenų bazė, tada uždaroma."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Pateiktame URL nėra antrojo ar aukščiausio lygio domeno (pvz., „google“ arba „com“ iš https://www.google.com url).##Ar tikrai tęsite?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Pateikite antrojo arba aukščiausio lygio domeną, kad būtų galima pridėti šį reguliariojo reiškinio URL."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "お気に入りの Web ページ上の新しいリンクや画像を強調表示します。"
+  },
+  "ph_opt_inp_url": {
+    "message": "正規表現または URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "正規表現"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "正規表現を使用すると、たった 1 行で複数のページを監視できます。##詳細については、ここをクリックしてください。"
+  },
+  "ih_opt_ttl": {
+    "message": "監視するタイプ:"
+  },
+  "ih_opt_chk_img": {
+    "message": "画像"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "最小画像領域 (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "リンク"
+  },
+  "vl_opt_btn_add": {
+    "message": "追加"
+  },
+  "ih_opt_btn_import": {
+    "message": "輸入"
+  },
+  "vl_opt_btn_export": {
+    "message": "輸出"
+  },
+  "lr_err_deldb": {
+    "message": "エラーが発生し、IndexedDb の削除に失敗しました。"
+  },
+  "lr_err_malformedurl": {
+    "message": "URL が不正です。"
+  },
+  "lr_err_fromdb": {
+    "message": "URLが見つかりません。"
+  },
+  "notif_title": {
+    "message": "警告！"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "監視する要素 (つまり、画像またはリンク) の少なくとも 1 つのタイプをチェックしてください。"
+  },
+  "notif_err_noProtocls": {
+    "message": "指定された URL にはプロトコルがありません (つまり、http:// または https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "指定された正規表現は無効です。"
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "このウェブサイトのデータベースは削除されました。"
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "エラーが発生しました。この Web サイトのデータベースは削除できませんでした:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "この URL からプロトコルを削除できません。##URL をもう一度確認してください。"
+  },
+  "notif_err_sldtld": {
+    "message": "指定された URL にはセカンドレベルまたはトップレベルのドメインがありません (例: https://www.google.com URL の「google」または「com」)。"
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "このエントリを削除してもよろしいですか?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "このエントリを削除してもよろしいですか?##Web サイトが自動的に開かれて画像やリンクのデータベースが削除された後、閉じられます。"
+  },
+  "cnfrm_err_sldtld": {
+    "message": "指定された URL にはセカンドレベルまたはトップレベルのドメインがありません (例: https://www.google.com URL の「google」または「com」)。##続行してもよろしいですか?"
+  },
+  "prompt_err_sldtld": {
+    "message": "この正規表現 URL を追加できるように、セカンドレベルまたはトップレベルのドメインを指定してください。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Evidenzia nuovi collegamenti e/o immagini sulle tue pagine Web preferite!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex o URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex consente di monitorare più pagine con una sola riga.##Clicca qui per saperne di più!"
+  },
+  "ih_opt_ttl": {
+    "message": "Digita per monitorare:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Immagini"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Area minima dell'immagine (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Collegamenti"
+  },
+  "vl_opt_btn_add": {
+    "message": "Aggiungere"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importare"
+  },
+  "vl_opt_btn_export": {
+    "message": "Esportare"
+  },
+  "lr_err_deldb": {
+    "message": "Si è verificato un errore, l'eliminazione di IndexedDb non è riuscita."
+  },
+  "lr_err_malformedurl": {
+    "message": "URL non valido."
+  },
+  "lr_err_fromdb": {
+    "message": "URL non trovato."
+  },
+  "notif_title": {
+    "message": "Avvertimento!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Seleziona almeno un tipo di elemento da monitorare (ad esempio immagine o collegamento)."
+  },
+  "notif_err_noProtocls": {
+    "message": "L'URL fornito non ha protocolli (ad esempio http:// o https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "La regex fornita non è valida."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Il database di questo sito Web è stato rimosso. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Si è verificato un errore, non è stato possibile rimuovere il database di questo sito web:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Impossibile rimuovere i protocolli da questo URL.##Controlla di nuovo l'URL."
+  },
+  "notif_err_sldtld": {
+    "message": "L'URL fornito non ha un dominio di secondo livello o di primo livello (ad esempio \"google\" o \"com\" dall'URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Sei sicuro di rimuovere questa voce?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Sei sicuro di rimuovere questa voce?##Il sito web verrà aperto automaticamente per rimuovere il database delle immagini e/o dei collegamenti, quindi chiuso."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "L'URL fornito non ha un dominio di secondo livello o di primo livello (ad esempio \"google\" o \"com\" dall'URL https://www.google.com).##Sei sicuro di continuare?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Fornisci un dominio di secondo livello o di primo livello in modo che sia possibile aggiungere questo URL regex."
+  }
+}

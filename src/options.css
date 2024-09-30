@@ -1,0 +1,411 @@
+/**
+*		GLOBAL OVERRIDING
+*/
+body {
+	min-width: 200px;
+	padding: 10px;
+	margin: 0px;
+	background-color: #141619;
+	color: white;
+	user-select: none;
+}
+
+input, fieldset {
+  border-radius: 7px;
+}
+
+/**
+*		GLOBAL
+*/
+
+/* Root container */
+.cont {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+/* Centering container */
+.cont-global {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+
+/**
+*		IDENTITY
+*/
+
+/* Logo container */
+.identity {
+	display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+/* Text logo */
+ttl {
+	font-size: 30px;
+  margin-left: 10px;
+	background: -webkit-linear-gradient(132deg, #325068, #aa58cf, #eeae65);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+/**
+*		GENERAL UI
+*/
+
+/* Buttons */
+#btn-add, #btn-import, #btn-export {
+	width: 100%;
+	padding: 10px;
+	cursor: pointer;
+  background-color: #a655d1;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+	color: white;
+}
+#btn-add:active, #btn-import:active, #btn-export:active {
+	background-color: #a655d1 !important;
+}
+#btn-add:hover, #btn-import:hover, #btn-export:hover {
+	background-color: #6e348c;
+}
+
+/* Burrons' labels */
+label[for="btn-import"] {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #a655d1;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 10px;
+	cursor: pointer;
+}
+label[for="btn-import"]:active {
+	background-color: #a655d1 !important;
+}
+label[for="btn-import"]:hover {
+	background-color: #6e348c;
+}
+
+
+/**
+*		USER INPUT
+*/
+
+/* User input container */
+.cont-add {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: center;
+  width: 400px;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  background-color: #282f3b;
+  margin: 30px 0px 0px 0px;
+	width: 60vw;
+  min-width: 590px;
+}
+
+/* URL input text, checkboxes, regex button and manual link container */
+.cont-inp {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Url text input */
+#inp-url {
+	padding: 10px;
+	font-size: 14px;
+	flex-grow: 1;
+	border: 0;
+	background-color: #eeae65;
+  font-size: 20px;
+  color: black;
+}
+#inp-url::placeholder {
+  color: #9d703d;
+}
+
+
+/* Regex button container */
+#cont-rgx {
+	margin: 0px 10px 0px 10px;
+	display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/* Documentation icon */
+.img-nfo {
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+/* Documentation icon tooltip */
+*[data-tooltip]:hover::after {
+  display: block;
+  position: absolute;
+  content: attr(data-tooltip);
+  border: 0px solid #eeae65;
+  background: #0000007a;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+	white-space: pre-wrap;
+	pointer-events: none;
+}
+
+/* Images minimum size number input */
+#cont-imagesSizeMin {
+	display: none;
+}
+#inp-imagesSizeMin {
+	padding: 10px;
+  margin-bottom: 20px;
+	background-color: #eeae65;
+	width: 60px;
+}
+
+/* Node type container */
+#cont-chk {
+	margin: 10px 0px 10px 0px;
+	font-size: 14px;
+}
+
+/* Note box */
+p {
+	display: inline-block;
+  margin: 0px 0px 0px 20px;
+}
+p.noteError {
+  margin: 20px 0px 0px 0px;
+  background-color: #ffe6e6;
+  border-left: solid 4px #db3434;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 12px;
+  color: #cb0000;
+  font-weight: bold;
+  font-size: 17px;
+  white-space: break-spaces;
+	display: block;
+}
+p.noteError:empty {
+	display: none;
+}
+
+
+
+/**
+*		MONITORED URLS LIST
+*/
+
+/* Node to add collapses to */
+#list-monit {
+	width: 100%;
+}
+
+/* Collapsible */
+article.origin, li.origin {
+	border: 1px solid #a655d1;
+}
+article {
+  background-color: #1b212a;
+  border-radius: 7px;
+  margin: 20px 0px 20px 0px;
+	padding: 10px 10px 10px 10px;
+}
+article > details > summary {
+	font-size: 22px;
+	margin-top: 16px;
+}
+summary {
+  user-select: none;
+  cursor: pointer;
+  color: #aaa;
+	margin: 0 !important;
+	padding: 0 !important;
+	left: 10px;
+  position: relative;
+}
+summary:hover {
+  color: #fff;
+}
+summary:focus {
+	outline-style: none;
+}
+summary::marker {
+ color: #a655d1;
+ content: '\0025C6\0020';
+ font-size: 125%;
+}
+details[open] summary::marker {
+	content: '\0025C8\0020';
+	color: #eeae65;
+}
+details summary:hover::marker {
+ color: #bc78e1;
+}
+details[open] summary:hover::marker {
+ color: #ffcb8f;
+}
+details {
+	padding: 0px 20px 0px 0px;
+}
+
+
+/* Button for deleting entry from URL list */
+.btn-del {
+	width: 32px;
+	height: 32px;
+	background-color: #141619;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border: none;
+	background-image: url(img/delete.png);
+	background-size: 20px;
+	margin-left: 20px;
+}
+.btn-del:hover {
+	background-color: #a70000 !important;
+}
+
+/* Entry list */
+li {
+  border-radius: 50px;
+	margin: 10px 0px 0px 10px;
+	display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+	width: 100%;
+	background-color: #181d24 !important;
+}
+li:hover {
+  background-color: #141619 !important;
+}
+li.deleted {
+	background-color: #2a1212 !important;
+  text-decoration: line-through;
+  color: #a10000;
+}
+li.deleted > .btn-del {
+	display: none;
+}
+
+/* Image/link/regex bacons */
+.nfo {
+	display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.lbl {
+	padding: 5px 10px 5px 10px;
+	margin: 0px 5px 0px 5px;
+  border-radius: 25px;
+	text-transform: uppercase;
+  font-weight: bold;
+}
+.lbl.img {
+  background-color: #5c554c;
+  color: #c9baa4;
+}
+.lbl.lnk {
+  background-color: #504c5c;
+  color: #b0a4c9;
+}
+.lbl.rgx {
+	background-color: #4d5c4c;
+  color: #a4c9a9;
+}
+li.deleted > .lbl:last-of-type {
+	margin: 0px 0px 0px 5px !important;
+}
+
+/* Url text */
+.txt-url {
+  font-size: 17px;
+	margin: 0px 20px 0px 20px;
+	user-select: all;
+}
+
+/* Text title */
+monitTitle {
+	padding: 0px;
+  margin: 40px 0px 0px 0px;
+  font-size: 20px;
+}
+
+
+/**
+*		BACKUP MENU
+*/
+
+/* Background menu container */
+.bord-mnu {
+	display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: center;
+  width: 400px;
+  border-radius: 10px;
+  padding: 15px 15px 15px 15px;
+  background-color: #282f3b;
+  margin: 30px 0px 20px 0px;
+  width: 60vw;
+  min-width: 590px;
+}
+
+/* Backup menu container */
+.cont-mnu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/* Improt button */
+#btn-import {
+	margin-bottom: 15px;
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Heben Sie neue Links und/oder Bilder auf Ihren Lieblingswebseiten hervor!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex oder URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex ermöglicht die Überwachung mehrerer Seiten mit nur einer Zeile.##Klicken Sie hier, um mehr darüber zu erfahren!"
+  },
+  "ih_opt_ttl": {
+    "message": "Geben Sie Folgendes ein, um Folgendes zu überwachen:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Bilder"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Mindestbildfläche (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Links"
+  },
+  "vl_opt_btn_add": {
+    "message": "Hinzufügen"
+  },
+  "ih_opt_btn_import": {
+    "message": "Import"
+  },
+  "vl_opt_btn_export": {
+    "message": "Export"
+  },
+  "lr_err_deldb": {
+    "message": "Es ist ein Fehler aufgetreten. Das Löschen von IndexedDb ist fehlgeschlagen."
+  },
+  "lr_err_malformedurl": {
+    "message": "Ungültige URL."
+  },
+  "lr_err_fromdb": {
+    "message": "URL nicht gefunden."
+  },
+  "notif_title": {
+    "message": "Warnung!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Bitte markieren Sie mindestens einen zu überwachenden Elementtyp (z. B. Bild oder Link)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Die angegebene URL hat keine Protokolle (d. h. http:// oder https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Der angegebene reguläre Ausdruck ist ungültig."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Die Datenbank dieser Website wurde entfernt. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Es ist ein Fehler aufgetreten, die Datenbank dieser Website konnte nicht entfernt werden:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Es ist nicht möglich, Protokolle von dieser URL zu entfernen.##Überprüfen Sie Ihre URL noch einmal."
+  },
+  "notif_err_sldtld": {
+    "message": "Die angegebene URL hat keine Second-Level- oder Top-Level-Domain (z. B. „google“ oder „com“ aus der URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Möchten Sie diesen Eintrag wirklich entfernen?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Möchten Sie diesen Eintrag wirklich entfernen?##Die Website wird automatisch geöffnet, um die Bilder- und/oder Linkdatenbank zu entfernen, und dann geschlossen."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Die angegebene URL hat keine Second-Level- oder Top-Level-Domain (z. B. „google“ oder „com“ aus der URL https://www.google.com).##Sind Sie sicher, dass Sie fortfahren möchten?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Bitte geben Sie eine Second-Level- oder Top-Level-Domain an, damit diese Regex-URL hinzugefügt werden kann."
+  }
+}

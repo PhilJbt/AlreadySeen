@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "अपने पसंदीदा वेब पेजों पर नए लिंक और/या छवियों को हाइलाइट करें!"
+  },
+  "ph_opt_inp_url": {
+    "message": "रेगेक्स या यूआरएल"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "रेगेक्स केवल एक पंक्ति के साथ कई पेजों की निगरानी करने की अनुमति देता है।##इसके बारे में जानने के लिए यहां क्लिक करें!"
+  },
+  "ih_opt_ttl": {
+    "message": "मॉनिटर करने के लिए टाइप करें:"
+  },
+  "ih_opt_chk_img": {
+    "message": "इमेजिस"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "न्यूनतम छवि क्षेत्र (पीएक्स)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "लिंक"
+  },
+  "vl_opt_btn_add": {
+    "message": "जोड़ना"
+  },
+  "ih_opt_btn_import": {
+    "message": "आयात"
+  },
+  "vl_opt_btn_export": {
+    "message": "निर्यात"
+  },
+  "lr_err_deldb": {
+    "message": "एक त्रुटि उत्पन्न हुई, IndexedDb विलोपन विफल रहा।"
+  },
+  "lr_err_malformedurl": {
+    "message": "विकृत यूआरएल."
+  },
+  "lr_err_fromdb": {
+    "message": "यूआरएल नहीं मिला."
+  },
+  "notif_title": {
+    "message": "चेतावनी!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "कृपया मॉनिटर करने के लिए कम से कम एक प्रकार के तत्व की जाँच करें (अर्थात् छवि या लिंक)।"
+  },
+  "notif_err_noProtocls": {
+    "message": "दिए गए यूआरएल में कोई प्रोटोकॉल नहीं है (यानी http:// या https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "दिया गया रेगेक्स मान्य नहीं है."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "इस वेबसाइट का डेटाबेस हटा दिया गया है. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "एक त्रुटि उत्पन्न हुई, इस वेबसाइट का डेटाबेस हटाया नहीं जा सका:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "इस यूआरएल से प्रोटोकॉल हटाना असंभव है।##अपना यूआरएल दोबारा जांचें।"
+  },
+  "notif_err_sldtld": {
+    "message": "दिए गए यूआरएल में कोई दूसरे स्तर या शीर्ष स्तर का डोमेन नहीं है (उदाहरण के लिए https://www.google.com यूआरएल से \"google\" या \"com\")।"
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "क्या आप निश्चित रूप से इस प्रविष्टि को हटाना चाहते हैं?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "क्या आप निश्चित रूप से इस प्रविष्टि को हटा देंगे?##छवियों और/या लिंक डेटाबेस को हटाने के लिए वेबसाइट स्वचालित रूप से खोली जाएगी, और फिर बंद कर दी जाएगी।"
+  },
+  "cnfrm_err_sldtld": {
+    "message": "दिए गए यूआरएल में कोई दूसरे स्तर या शीर्ष स्तर का डोमेन नहीं है (उदाहरण के लिए https://www.google.com यूआरएल से \"google\" या \"com\")।##क्या आप जारी रखना सुनिश्चित हैं?"
+  },
+  "prompt_err_sldtld": {
+    "message": "कृपया एक द्वितीय-स्तरीय या शीर्ष-स्तरीय डोमेन प्रदान करें ताकि इस रेगेक्स यूआरएल को इसमें जोड़ा जा सके।"
+  }
+}

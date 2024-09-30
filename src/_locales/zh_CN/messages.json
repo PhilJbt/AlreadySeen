@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "突出显示您最喜欢的网页上的新链接和/或图像！"
+  },
+  "ph_opt_inp_url": {
+    "message": "正则表达式或网址"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "正则表达式"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "正则表达式允许仅用一行监控多个页面。##点击这里了解它！"
+  },
+  "ih_opt_ttl": {
+    "message": "输入要监控的内容："
+  },
+  "ih_opt_chk_img": {
+    "message": "图片"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "最小图像面积（像素）"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "链接"
+  },
+  "vl_opt_btn_add": {
+    "message": "添加"
+  },
+  "ih_opt_btn_import": {
+    "message": "进口"
+  },
+  "vl_opt_btn_export": {
+    "message": "出口"
+  },
+  "lr_err_deldb": {
+    "message": "发生错误，IndexedDb 删除失败。"
+  },
+  "lr_err_malformedurl": {
+    "message": "网址格式错误。"
+  },
+  "lr_err_fromdb": {
+    "message": "找不到网址。"
+  },
+  "notif_title": {
+    "message": "警告！"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "请检查至少一种要监控的元素（即图像或链接）。"
+  },
+  "notif_err_noProtocls": {
+    "message": "给定的 url 没有协议（即 http:// 或 https://）"
+  },
+  "notif_err_unproperRegex": {
+    "message": "给定的正则表达式无效。"
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "该网站的数据库已被删除。"
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "发生错误，无法删除该网站的数据库："
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "无法从此 URL 中删除协议。##再次检查您的 URL。"
+  },
+  "notif_err_sldtld": {
+    "message": "给定的网址没有二级或顶级域（例如 https://www.google.com 网址中的“google”或“com”）。"
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "您确定删除此条目吗？"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "您确定删除此条目吗？##网站将自动打开以删除图像和/或链接数据库，然后关闭。"
+  },
+  "cnfrm_err_sldtld": {
+    "message": "给定的网址没有二级或顶级域（例如 https://www.google.com 网址中的“google”或“com”）。##您确定要继续吗？"
+  },
+  "prompt_err_sldtld": {
+    "message": "请提供二级或顶级域名，以便可以添加此正则表达式 URL。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Serlahkan pautan dan/atau imej baharu pada halaman web kegemaran anda!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex atau url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex membenarkan untuk memantau berbilang halaman dengan hanya satu baris.##Klik di sini untuk mengetahui tentangnya!"
+  },
+  "ih_opt_ttl": {
+    "message": "Taip untuk memantau:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Imej"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Kawasan imej minimum (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Pautan"
+  },
+  "vl_opt_btn_add": {
+    "message": "Tambah"
+  },
+  "ih_opt_btn_import": {
+    "message": "Import"
+  },
+  "vl_opt_btn_export": {
+    "message": "Eksport"
+  },
+  "lr_err_deldb": {
+    "message": "Ralat berlaku, pemadaman IndexedDb gagal."
+  },
+  "lr_err_malformedurl": {
+    "message": "URL cacat."
+  },
+  "lr_err_fromdb": {
+    "message": "Url tidak ditemui."
+  },
+  "notif_title": {
+    "message": "Amaran!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Sila semak sekurang-kurangnya satu jenis elemen untuk dipantau (iaitu imej atau pautan)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Url yang diberikan tidak mempunyai protokol (iaitu http:// atau https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Regex yang diberikan tidak sah."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Pangkalan data tapak web ini telah dialih keluar. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Ralat berlaku, pangkalan data tapak web ini tidak dapat dialih keluar:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Mustahil untuk mengalih keluar protokol daripada URL ini.##Semak URL anda sekali lagi."
+  },
+  "notif_err_sldtld": {
+    "message": "Url yang diberikan tidak mempunyai domain peringkat kedua atau peringkat atas (cth. \"google\" atau \"com\" daripada url https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Adakah anda pasti akan mengalih keluar masukan ini?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Adakah anda pasti untuk mengalih keluar masukan ini?##Tapak web akan dibuka secara automatik untuk mengalih keluar imej dan/atau pangkalan data pautan, dan kemudian ditutup."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Url yang diberikan tidak mempunyai domain peringkat kedua atau peringkat atas (cth. \"google\" atau \"com\" daripada url https://www.google.com).##Adakah anda pasti untuk meneruskan?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Sila berikan domain peringkat kedua atau peringkat atas supaya URL regex ini boleh ditambahkan."
+  }
+}

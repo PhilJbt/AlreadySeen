@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "قم بتمييز الروابط و/أو الصور الجديدة على صفحات الويب المفضلة لديك!"
+  },
+  "ph_opt_inp_url": {
+    "message": "التعبير العادي أو عنوان url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "التعبير العادي"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "يسمح Regex بمراقبة صفحات متعددة بسطر واحد فقط.##انقر هنا للتعرف عليه!"
+  },
+  "ih_opt_ttl": {
+    "message": "اكتب للمراقبة:"
+  },
+  "ih_opt_chk_img": {
+    "message": "الصور"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "الحد الأدنى لمساحة الصورة (بكسل)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "روابط"
+  },
+  "vl_opt_btn_add": {
+    "message": "يضيف"
+  },
+  "ih_opt_btn_import": {
+    "message": "يستورد"
+  },
+  "vl_opt_btn_export": {
+    "message": "يصدّر"
+  },
+  "lr_err_deldb": {
+    "message": "حدث خطأ، فشل حذف IndexedDb."
+  },
+  "lr_err_malformedurl": {
+    "message": "عنوان URL مكتوب بشكل غير صحيح."
+  },
+  "lr_err_fromdb": {
+    "message": "لم يتم العثور على عنوان URL."
+  },
+  "notif_title": {
+    "message": "تحذير!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "يرجى تحديد نوع واحد على الأقل من العناصر المراد مراقبتها (أي صورة أو رابط)."
+  },
+  "notif_err_noProtocls": {
+    "message": "عنوان URL المعطى لا يحتوي على بروتوكولات (مثل http:// أو https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "التعبير العادي المعطى غير صالح."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "تمت إزالة قاعدة بيانات هذا الموقع. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "حدث خطأ، لا يمكن إزالة قاعدة بيانات هذا الموقع:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "من المستحيل إزالة البروتوكولات من عنوان URL هذا.##تحقق من عنوان URL الخاص بك مرة أخرى."
+  },
+  "notif_err_sldtld": {
+    "message": "لا يحتوي عنوان URL المعطى على نطاق المستوى الثاني أو المستوى الأعلى (على سبيل المثال، \"google\" أو \"com\" من عنوان URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "هل أنت متأكد من إزالة هذا الإدخال؟"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "هل أنت متأكد من إزالة هذا الإدخال؟##سيتم فتح الموقع تلقائيًا لإزالة قاعدة بيانات الصور و/أو الروابط، ثم سيتم إغلاقه."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "عنوان URL المحدد لا يحتوي على نطاق المستوى الثاني أو المستوى الأعلى (على سبيل المثال، \"google\" أو \"com\" من https://www.google.com url).##هل أنت متأكد من المتابعة؟"
+  },
+  "prompt_err_sldtld": {
+    "message": "يرجى تقديم نطاق المستوى الثاني أو المستوى الأعلى حتى يمكن إضافة عنوان URL العادي هذا إليه."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "በሚወዷቸው ድረ-ገጾች ላይ አዳዲስ አገናኞችን እና/ወይም ምስሎችን ያድምቁ!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex ወይም url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex ብዙ ገጾችን በአንድ መስመር ብቻ ለመከታተል ይፈቅዳል።ስለሱ ለማወቅ ይህን ይጫኑ።"
+  },
+  "ih_opt_ttl": {
+    "message": "ለመከታተል ይተይቡ፡"
+  },
+  "ih_opt_chk_img": {
+    "message": "ምስሎች"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "ዝቅተኛው የምስል ቦታ (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "አገናኞች"
+  },
+  "vl_opt_btn_add": {
+    "message": "አክል"
+  },
+  "ih_opt_btn_import": {
+    "message": "አስመጣ"
+  },
+  "vl_opt_btn_export": {
+    "message": "ወደ ውጪ ላክ"
+  },
+  "lr_err_deldb": {
+    "message": "ስህተት ተከስቷል፣ IndexedDb መሰረዝ አልተሳካም።"
+  },
+  "lr_err_malformedurl": {
+    "message": "የተሳሳተ ዩአርኤል"
+  },
+  "lr_err_fromdb": {
+    "message": "ዩአርኤል አልተገኘም።"
+  },
+  "notif_title": {
+    "message": "ማስጠንቀቂያ!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "እባክዎ ለመከታተል ቢያንስ አንድ አይነት ኤለመንት (ማለትም ምስል ወይም አገናኝ) ያረጋግጡ።"
+  },
+  "notif_err_noProtocls": {
+    "message": "የተሰጠው ዩአርኤል ምንም ፕሮቶኮሎች የሉትም (ማለትም http:// ወይም https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "የተሰጠው regex ልክ አይደለም።"
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "የዚህ ድር ጣቢያ የውሂብ ጎታ ተወግዷል። "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "ስህተት ተፈጥሯል፣ የዚህ ድር ጣቢያ የውሂብ ጎታ ሊወገድ አልቻለም፡"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "ፕሮቶኮሎችን ከዚህ ዩአርኤል ለማስወገድ የማይቻል ነው።##ዩአርኤልዎን እንደገና ያረጋግጡ።"
+  },
+  "notif_err_sldtld": {
+    "message": "የተሰጠው ዩአርኤል ሁለተኛ ደረጃ ወይም ከፍተኛ ደረጃ ጎራ የለውም (ለምሳሌ \"google\" ወይም \"com\" ከ https://www.google.com url)።"
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "ይህን ግቤት እንደሚያስወግዱ እርግጠኛ ነዎት?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "ይህን ግቤት እንደሚያስወግዱት እርግጠኛ ኖት?##የምስሎች እና/ወይም አገናኞች ዳታቤዝ ለማስወገድ ድህረ ገጹ በራስ-ሰር ይከፈታል እና ይዘጋል።"
+  },
+  "cnfrm_err_sldtld": {
+    "message": "የተሰጠው ዩአርኤል ምንም የሁለተኛ ደረጃ ወይም ከፍተኛ ደረጃ ጎራ የለውም (ለምሳሌ \"google\" ወይም \"com\" ከ https://www.google.com url)።##ለመቀጠል እርግጠኛ ነዎት?"
+  },
+  "prompt_err_sldtld": {
+    "message": "እባክዎ ይህ regex ዩአርኤል ወደ ላይ እንዲጨመር ሁለተኛ ደረጃ ወይም ከፍተኛ ደረጃ ጎራ ያቅርቡ።"
+  }
+}

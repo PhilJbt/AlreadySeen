@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Markera nya länkar och/eller bilder på dina favoritwebbsidor!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex eller url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex tillåter att övervaka flera sidor med bara en rad.##Klicka här för att lära dig mer om det!"
+  },
+  "ih_opt_ttl": {
+    "message": "Typ att övervaka:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Bilder"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minsta bildyta (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Länkar"
+  },
+  "vl_opt_btn_add": {
+    "message": "Tillägga"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importera"
+  },
+  "vl_opt_btn_export": {
+    "message": "Exportera"
+  },
+  "lr_err_deldb": {
+    "message": "Ett fel uppstod, raderingen av IndexedDb misslyckades."
+  },
+  "lr_err_malformedurl": {
+    "message": "Felaktig webbadress."
+  },
+  "lr_err_fromdb": {
+    "message": "Webbadressen hittades inte."
+  },
+  "notif_title": {
+    "message": "Varning!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Kontrollera minst en typ av element att övervaka (t.ex. bild eller länk)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Den angivna webbadressen har inga protokoll (dvs. http:// eller https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Det angivna regexet är inte giltigt."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Den här webbplatsens databas har tagits bort. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Ett fel uppstod, den här webbplatsens databas kunde inte tas bort:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Omöjligt att ta bort protokoll från denna URL.##Kontrollera din URL igen."
+  },
+  "notif_err_sldtld": {
+    "message": "Den angivna webbadressen har ingen andranivå- eller toppdomän (t.ex. \"google\" eller \"com\" från https://www.google.com-webbadressen)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Är du säker på att ta bort den här posten?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Är du säker på att ta bort denna post?##Webbplatsen öppnas automatiskt för att ta bort bilderna och/eller länkdatabasen och stängs sedan."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Den angivna webbadressen har ingen andra nivå eller toppdomän (t.ex. \"google\" eller \"com\" från https://www.google.com url).##Är du säker på att du vill fortsätta?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Ange en andranivå- eller toppdomän så att denna regex-URL kan läggas till."
+  }
+}

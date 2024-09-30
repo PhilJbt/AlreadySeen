@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Označite nove povezave in/ali slike na svojih priljubljenih spletnih straneh!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex ali url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex omogoča spremljanje več strani s samo eno vrstico.##Kliknite tukaj, če želite izvedeti več o tem!"
+  },
+  "ih_opt_ttl": {
+    "message": "Vnesite za spremljanje:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Slike"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Najmanjša površina slike (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Povezave"
+  },
+  "vl_opt_btn_add": {
+    "message": "Dodaj"
+  },
+  "ih_opt_btn_import": {
+    "message": "Uvozi"
+  },
+  "vl_opt_btn_export": {
+    "message": "Izvozi"
+  },
+  "lr_err_deldb": {
+    "message": "Prišlo je do napake, brisanje IndexedDb ni uspelo."
+  },
+  "lr_err_malformedurl": {
+    "message": "Napačen url."
+  },
+  "lr_err_fromdb": {
+    "message": "Url ni bil najden."
+  },
+  "notif_title": {
+    "message": "Opozorilo!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Označite vsaj eno vrsto elementa za spremljanje (npr. sliko ali povezavo)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Podani URL nima protokolov (tj. http:// ali https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Podani regularni izraz ni veljaven."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Baza podatkov te spletne strani je bila odstranjena. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Prišlo je do napake, baze podatkov tega spletnega mesta ni bilo mogoče odstraniti:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Protokolov s tega URL-ja ni mogoče odstraniti.##Znova preverite svoj URL."
+  },
+  "notif_err_sldtld": {
+    "message": "Navedeni url nima domene druge ali najvišje ravni (npr. »google« ali »com« iz URL-ja https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Ali ste prepričani, da želite odstraniti ta vnos?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Ali ste prepričani, da želite odstraniti ta vnos?##Spletno mesto se bo samodejno odprlo, da se odstrani zbirka slik in/ali povezav, nato pa se bo zaprlo."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Navedeni url nima domene druge ali najvišje ravni (npr. »google« ali »com« iz URL-ja https://www.google.com).##Ali ste prepričani, da boste nadaljevali?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Navedite domeno druge ali najvišje ravni, da bo mogoče dodati ta URL regularnega izraza."
+  }
+}

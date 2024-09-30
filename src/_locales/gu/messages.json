@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "તમારા મનપસંદ વેબ પૃષ્ઠો પર નવી લિંક્સ અને/અથવા છબીઓને હાઇલાઇટ કરો!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex અથવા url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "રેજેક્સ"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex માત્ર એક લીટી સાથે બહુવિધ પૃષ્ઠોને મોનિટર કરવાની મંજૂરી આપે છે.##તેના વિશે જાણવા માટે અહીં ક્લિક કરો!"
+  },
+  "ih_opt_ttl": {
+    "message": "મોનિટર કરવા માટે પ્રકાર:"
+  },
+  "ih_opt_chk_img": {
+    "message": "છબીઓ"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "ન્યૂનતમ છબી વિસ્તાર (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "લિંક્સ"
+  },
+  "vl_opt_btn_add": {
+    "message": "ઉમેરો"
+  },
+  "ih_opt_btn_import": {
+    "message": "આયાત કરો"
+  },
+  "vl_opt_btn_export": {
+    "message": "નિકાસ કરો"
+  },
+  "lr_err_deldb": {
+    "message": "એક ભૂલ આવી, IndexedDb કાઢી નાખવાનું નિષ્ફળ થયું."
+  },
+  "lr_err_malformedurl": {
+    "message": "દૂષિત url."
+  },
+  "lr_err_fromdb": {
+    "message": "Url મળ્યું નથી."
+  },
+  "notif_title": {
+    "message": "ચેતવણી!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "કૃપા કરીને મોનિટર કરવા માટે ઓછામાં ઓછા એક પ્રકારનું તત્વ તપાસો (એટલે ​​કે છબી અથવા લિંક)."
+  },
+  "notif_err_noProtocls": {
+    "message": "આપેલ url માં કોઈ પ્રોટોકોલ નથી (એટલે ​​કે http:// અથવા https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "આપેલ રેગેક્સ માન્ય નથી."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "આ વેબસાઇટનો ડેટાબેઝ દૂર કરવામાં આવ્યો છે. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "એક ભૂલ આવી, આ વેબસાઇટનો ડેટાબેઝ દૂર કરી શકાયો નથી:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "આ URL માંથી પ્રોટોકોલ દૂર કરવું અશક્ય છે.##તમારું URL ફરીથી તપાસો."
+  },
+  "notif_err_sldtld": {
+    "message": "આપેલ url માં કોઈ સેકન્ડ-લેવલ અથવા ટોપ-લેવલ ડોમેન નથી (દા.ત. https://www.google.com url માંથી \"google\" અથવા \"com\")."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "શું તમે આ એન્ટ્રી દૂર કરવા માટે ચોક્કસ છો?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "શું તમે આ એન્ટ્રીને દૂર કરવા માટે ચોક્કસ છો?##ઈમેજો અને/અથવા લિંક્સ ડેટાબેઝને દૂર કરવા માટે વેબસાઈટ આપમેળે ખોલવામાં આવશે અને પછી બંધ થઈ જશે."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "આપેલ url માં કોઈ બીજા-સ્તરનું અથવા ઉચ્ચ-સ્તરનું ડોમેન નથી (દા.ત. https://www.google.com url માંથી \"google\" અથવા \"com\").##શું તમે ચાલુ રાખવાની ખાતરી કરો છો?"
+  },
+  "prompt_err_sldtld": {
+    "message": "કૃપા કરીને સેકન્ડ-લેવલ અથવા ટોપ-લેવલ ડોમેન પ્રદાન કરો જેથી કરીને આ રેગેક્સ URL ઉમેરી શકાય."
+  }
+}

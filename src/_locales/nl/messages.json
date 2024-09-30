@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Markeer nieuwe links en/of afbeeldingen op uw favoriete webpagina's!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex of URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Met Regex kunt u meerdere pagina's monitoren met slechts één regel.##Klik hier voor meer informatie!"
+  },
+  "ih_opt_ttl": {
+    "message": "Type om te monitoren:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Afbeeldingen"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimaal afbeeldingsgebied (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Koppelingen"
+  },
+  "vl_opt_btn_add": {
+    "message": "Toevoegen"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importeren"
+  },
+  "vl_opt_btn_export": {
+    "message": "Exporteren"
+  },
+  "lr_err_deldb": {
+    "message": "Er is een fout opgetreden, het verwijderen van IndexedDb is mislukt."
+  },
+  "lr_err_malformedurl": {
+    "message": "Verkeerd opgemaakte URL."
+  },
+  "lr_err_fromdb": {
+    "message": "URL niet gevonden."
+  },
+  "notif_title": {
+    "message": "Waarschuwing!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Vink ten minste één type element aan dat u wilt monitoren (d.w.z. afbeelding of link)."
+  },
+  "notif_err_noProtocls": {
+    "message": "De opgegeven URL heeft geen protocollen (d.w.z. http:// of https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "De opgegeven regex is niet geldig."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "De database van deze website is verwijderd. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Er is een fout opgetreden, de database van deze website kan niet worden verwijderd:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Het is onmogelijk om protocollen van deze URL te verwijderen.##Controleer uw URL opnieuw."
+  },
+  "notif_err_sldtld": {
+    "message": "De opgegeven URL heeft geen domein op het tweede niveau of op het hoogste niveau (bijvoorbeeld 'google' of 'com' van de URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Weet u zeker dat u dit bericht wilt verwijderen?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Weet u zeker dat u dit item wilt verwijderen?##De website wordt automatisch geopend om de database met afbeeldingen en/of links te verwijderen en vervolgens gesloten."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "De opgegeven URL heeft geen domein op het tweede of hoogste niveau (bijvoorbeeld 'google' of 'com' van de URL https://www.google.com).##Weet je zeker dat je door wilt gaan?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Geef een domein op het tweede of hoogste niveau op, zodat deze regex-URL kan worden toegevoegd."
+  }
+}

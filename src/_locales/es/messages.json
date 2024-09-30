@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "¡Resalta nuevos enlaces y/o imágenes en tus páginas web favoritas!"
+  },
+  "ph_opt_inp_url": {
+    "message": "expresión regular o URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "expresión regular"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex permite monitorear múltiples páginas con una sola línea.##¡Haga clic aquí para obtener más información!"
+  },
+  "ih_opt_ttl": {
+    "message": "Tipo a monitorear:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Imágenes"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Área mínima de imagen (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Campo de golf"
+  },
+  "vl_opt_btn_add": {
+    "message": "Agregar"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importar"
+  },
+  "vl_opt_btn_export": {
+    "message": "Exportar"
+  },
+  "lr_err_deldb": {
+    "message": "Se produjo un error, la eliminación de IndexedDb falló."
+  },
+  "lr_err_malformedurl": {
+    "message": "URL mal formada."
+  },
+  "lr_err_fromdb": {
+    "message": "URL no encontrada."
+  },
+  "notif_title": {
+    "message": "¡Advertencia!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Marque al menos un tipo de elemento a monitorear (es decir, imagen o enlace)."
+  },
+  "notif_err_noProtocls": {
+    "message": "La URL proporcionada no tiene protocolos (es decir, http:// o https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "La expresión regular proporcionada no es válida."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "La base de datos de este sitio web ha sido eliminada. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Se produjo un error, la base de datos de este sitio web no se pudo eliminar:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Es imposible eliminar protocolos de esta URL.##Comprueba tu URL nuevamente."
+  },
+  "notif_err_sldtld": {
+    "message": "La URL proporcionada no tiene dominio de segundo nivel ni de nivel superior (por ejemplo, \"google\" o \"com\" de la URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "¿Estás seguro de eliminar esta entrada?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "¿Está seguro de eliminar esta entrada?##El sitio web se abrirá automáticamente para eliminar la base de datos de imágenes y/o enlaces y luego se cerrará."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "La URL proporcionada no tiene dominio de segundo nivel ni de nivel superior (por ejemplo, \"google\" o \"com\" de la URL https://www.google.com).##¿Estás seguro de continuar?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Proporcione un dominio de segundo nivel o de nivel superior para poder agregar esta URL de expresión regular."
+  }
+}

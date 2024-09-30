@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Emelje ki az új linkeket és/vagy képeket kedvenc weboldalain!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex vagy url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "A Regex lehetővé teszi több oldal egyetlen sorral történő figyelését.##Kattintson ide, ha többet szeretne tudni róla!"
+  },
+  "ih_opt_ttl": {
+    "message": "Írja be a figyeléshez:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Képek"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimális képterület (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Linkek"
+  },
+  "vl_opt_btn_add": {
+    "message": "Hozzáadás"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importálás"
+  },
+  "vl_opt_btn_export": {
+    "message": "Export"
+  },
+  "lr_err_deldb": {
+    "message": "Hiba történt, az IndexedDb törlése nem sikerült."
+  },
+  "lr_err_malformedurl": {
+    "message": "Rosszul formázott URL."
+  },
+  "lr_err_fromdb": {
+    "message": "Az URL nem található."
+  },
+  "notif_title": {
+    "message": "Figyelmeztetés!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Kérjük, ellenőrizze legalább egy elemtípust (például képet vagy linket)."
+  },
+  "notif_err_noProtocls": {
+    "message": "A megadott URL-nek nincs protokollja (pl. http:// vagy https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "A megadott reguláris kifejezés nem érvényes."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Ennek a webhelynek az adatbázisa eltávolítva. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Hiba történt, a webhely adatbázisa nem távolítható el:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Lehetetlen eltávolítani a protokollokat erről az URL-ről.##Ellenőrizze újra az URL-t."
+  },
+  "notif_err_sldtld": {
+    "message": "A megadott URL-nek nincs második vagy legfelső szintű domainje (pl. „google” vagy „com” a https://www.google.com URL-ből)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Biztosan eltávolítja ezt a bejegyzést?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Biztosan eltávolítja ezt a bejegyzést?##A webhely automatikusan megnyílik a képek és/vagy hivatkozások adatbázisának eltávolításához, majd bezárja."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "A megadott URL-nek nincs második vagy legfelső szintű domainje (pl. „google” vagy „com” a https://www.google.com URL-ből).##Biztosan folytatja?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Adjon meg egy második vagy legfelső szintű domaint, hogy hozzá lehessen adni ezt a reguláris kifejezést."
+  }
+}

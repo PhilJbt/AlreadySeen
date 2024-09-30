@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "突出顯示您最喜歡的網頁上的新連結和/或圖像！"
+  },
+  "ph_opt_inp_url": {
+    "message": "正規表示式或網址"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "正規表示式"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "正規表示式允許僅用一行監控多個頁面。"
+  },
+  "ih_opt_ttl": {
+    "message": "輸入要監控的內容："
+  },
+  "ih_opt_chk_img": {
+    "message": "圖片"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "最小影像面積（像素）"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "連結"
+  },
+  "vl_opt_btn_add": {
+    "message": "添加"
+  },
+  "ih_opt_btn_import": {
+    "message": "進口"
+  },
+  "vl_opt_btn_export": {
+    "message": "出口"
+  },
+  "lr_err_deldb": {
+    "message": "發生錯誤，IndexedDb 刪除失敗。"
+  },
+  "lr_err_malformedurl": {
+    "message": "網址格式錯誤。"
+  },
+  "lr_err_fromdb": {
+    "message": "找不到網址。"
+  },
+  "notif_title": {
+    "message": "警告！"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "請檢查至少一種要監控的元素（即圖像或連結）。"
+  },
+  "notif_err_noProtocls": {
+    "message": "給定的 url 沒有協定（即 http:// 或 https://）"
+  },
+  "notif_err_unproperRegex": {
+    "message": "給定的正規表示式無效。"
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "該網站的資料庫已被刪除。"
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "發生錯誤，無法刪除該網站的資料庫："
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "無法從此 URL 中刪除協定。"
+  },
+  "notif_err_sldtld": {
+    "message": "給定的網址沒有二級或頂級網域（例如 https://www.google.com 網址中的「google」或「com」）。"
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "您確定刪除此條目嗎？"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "您確定刪除此條目嗎？"
+  },
+  "cnfrm_err_sldtld": {
+    "message": "給定的網址沒有二級或頂級網域（例如 https://www.google.com 網址中的「google」或「com」）。"
+  },
+  "prompt_err_sldtld": {
+    "message": "請提供二級或頂級域名，以便可以新增此正規表示式 URL。"
+  }
+}

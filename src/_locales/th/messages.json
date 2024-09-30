@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "เน้นลิงก์และ/หรือรูปภาพใหม่บนหน้าเว็บที่คุณชื่นชอบ!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex หรือ URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "นิพจน์ทั่วไป"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex อนุญาตให้ตรวจสอบหลายหน้าด้วยบรรทัดเดียว##คลิกที่นี่เพื่อเรียนรู้เกี่ยวกับเรื่องนี้!"
+  },
+  "ih_opt_ttl": {
+    "message": "พิมพ์เพื่อตรวจสอบ:"
+  },
+  "ih_opt_chk_img": {
+    "message": "รูปภาพ"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "พื้นที่ภาพขั้นต่ำ (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "ลิงค์"
+  },
+  "vl_opt_btn_add": {
+    "message": "เพิ่ม"
+  },
+  "ih_opt_btn_import": {
+    "message": "นำเข้า"
+  },
+  "vl_opt_btn_export": {
+    "message": "ส่งออก"
+  },
+  "lr_err_deldb": {
+    "message": "เกิดข้อผิดพลาด การลบ IndexedDb ล้มเหลว"
+  },
+  "lr_err_malformedurl": {
+    "message": "URL มีรูปแบบไม่ถูกต้อง"
+  },
+  "lr_err_fromdb": {
+    "message": "ไม่พบ URL"
+  },
+  "notif_title": {
+    "message": "คำเตือน!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "โปรดตรวจสอบองค์ประกอบอย่างน้อยหนึ่งประเภทที่จะตรวจสอบ (เช่น รูปภาพหรือลิงก์)"
+  },
+  "notif_err_noProtocls": {
+    "message": "URL ที่ให้มาไม่มีโปรโตคอล (เช่น http:// หรือ https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "regex ที่ให้มาไม่ถูกต้อง"
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "ฐานข้อมูลของเว็บไซต์นี้ถูกลบออกแล้ว "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "เกิดข้อผิดพลาด ไม่สามารถลบฐานข้อมูลของเว็บไซต์นี้ได้:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "ไม่สามารถลบโปรโตคอลออกจาก URL นี้##ตรวจสอบ URL ของคุณอีกครั้ง"
+  },
+  "notif_err_sldtld": {
+    "message": "URL ที่ระบุไม่มีโดเมนระดับที่สองหรือระดับบนสุด (เช่น \"google\" หรือ \"com\" จาก URL https://www.google.com)"
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "คุณแน่ใจที่จะลบรายการนี้หรือไม่"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "คุณแน่ใจหรือไม่ที่จะลบรายการนี้##เว็บไซต์จะถูกเปิดโดยอัตโนมัติเพื่อลบฐานข้อมูลรูปภาพและ/หรือลิงก์ จากนั้นจะปิดลง"
+  },
+  "cnfrm_err_sldtld": {
+    "message": "URL ที่ให้มาไม่มีโดเมนระดับที่สองหรือระดับบนสุด (เช่น \"google\" หรือ \"com\" จาก URL https://www.google.com)##คุณแน่ใจหรือว่าจะดำเนินการต่อไป"
+  },
+  "prompt_err_sldtld": {
+    "message": "โปรดระบุโดเมนระดับที่สองหรือระดับบนสุดเพื่อให้สามารถเพิ่ม URL regex นี้ลงไปได้"
+  }
+}

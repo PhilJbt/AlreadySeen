@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Tõstke oma lemmikveebilehtedel esile uued lingid ja/või pildid!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex või url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex võimaldab jälgida mitut lehte ainult ühe reaga.##Selle kohta lisateabe saamiseks klõpsake siin!"
+  },
+  "ih_opt_ttl": {
+    "message": "Sisestage jälgimiseks:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Pildid"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimaalne pildi pindala (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Lingid"
+  },
+  "vl_opt_btn_add": {
+    "message": "Lisa"
+  },
+  "ih_opt_btn_import": {
+    "message": "Import"
+  },
+  "vl_opt_btn_export": {
+    "message": "Ekspordi"
+  },
+  "lr_err_deldb": {
+    "message": "Ilmnes viga, IndexedDb kustutamine ebaõnnestus."
+  },
+  "lr_err_malformedurl": {
+    "message": "Vigane url."
+  },
+  "lr_err_fromdb": {
+    "message": "URL-i ei leitud."
+  },
+  "notif_title": {
+    "message": "Hoiatus!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Palun märkige vähemalt üht tüüpi jälgitav element (nt pilt või link)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Antud URL-il pole protokolle (nt http:// või https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Antud regex ei kehti."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Selle veebisaidi andmebaas on eemaldatud. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Ilmnes viga, selle veebisaidi andmebaasi ei saanud eemaldada:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Sellelt URL-ilt on võimatu protokolle eemaldada.##Kontrollige oma URL-i uuesti."
+  },
+  "notif_err_sldtld": {
+    "message": "Antud URL-il ei ole teise taseme ega ülataseme domeeni (nt \"google\" või \"com\" https://www.google.com-i URL-ilt)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Kas olete kindel, et eemaldate selle kirje?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Kas olete kindel, et eemaldate selle kirje?##Veebisait avatakse automaatselt piltide ja/või linkide andmebaasi eemaldamiseks ja seejärel suletakse."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Antud URL-il ei ole teise taseme ega ülataseme domeeni (nt \"google\" või \"com\" https://www.google.com-i URL-ist).##Kas jätkate kindlasti?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Sisestage teise taseme või ülataseme domeen, et seda regex-URL-i saaks lisada."
+  }
+}

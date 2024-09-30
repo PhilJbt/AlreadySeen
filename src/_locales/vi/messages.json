@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Làm nổi bật các liên kết và/hoặc hình ảnh mới trên các trang web yêu thích của bạn!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex hoặc url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Biểu thức chính quy"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex cho phép giám sát nhiều trang chỉ bằng một dòng.##Nhấp vào đây để tìm hiểu về nó!"
+  },
+  "ih_opt_ttl": {
+    "message": "Nhập để theo dõi:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Hình ảnh"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Diện tích hình ảnh tối thiểu (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Liên kết"
+  },
+  "vl_opt_btn_add": {
+    "message": "Thêm vào"
+  },
+  "ih_opt_btn_import": {
+    "message": "Nhập khẩu"
+  },
+  "vl_opt_btn_export": {
+    "message": "Xuất khẩu"
+  },
+  "lr_err_deldb": {
+    "message": "Đã xảy ra lỗi, việc xóa IndexedDb không thành công."
+  },
+  "lr_err_malformedurl": {
+    "message": "Url không đúng định dạng."
+  },
+  "lr_err_fromdb": {
+    "message": "Không tìm thấy url."
+  },
+  "notif_title": {
+    "message": "Cảnh báo!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Vui lòng chọn ít nhất một loại phần tử để theo dõi (ví dụ: hình ảnh hoặc liên kết)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Url đã cho không có giao thức (tức là http:// hoặc https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Regex đã cho không hợp lệ."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Cơ sở dữ liệu của trang web này đã bị xóa. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Đã xảy ra lỗi, không thể xóa cơ sở dữ liệu của trang web này:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Không thể xóa giao thức khỏi URL này.##Hãy kiểm tra lại URL của bạn."
+  },
+  "notif_err_sldtld": {
+    "message": "Url đã cho không có tên miền cấp hai hoặc cấp cao nhất (ví dụ: \"google\" hoặc \"com\" từ url https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Bạn có chắc chắn xóa mục này không?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Bạn có chắc chắn xóa mục này không?##Trang web sẽ được tự động mở để xóa cơ sở dữ liệu hình ảnh và/hoặc liên kết, sau đó đóng lại."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Url đã cung cấp không có tên miền cấp hai hoặc cấp cao nhất (ví dụ: \"google\" hoặc \"com\" từ url https://www.google.com).##Bạn có chắc chắn tiếp tục không?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Vui lòng cung cấp tên miền cấp hai hoặc cấp cao nhất để có thể thêm URL biểu thức chính quy này vào."
+  }
+}

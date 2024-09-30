@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Виділіть нові посилання та/або зображення на своїх улюблених веб-сторінках!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex або url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Регулярний вираз"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex дозволяє контролювати кілька сторінок за допомогою лише одного рядка.##Натисніть тут, щоб дізнатися про це!"
+  },
+  "ih_opt_ttl": {
+    "message": "Введіть для моніторингу:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Зображення"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Мінімальна площа зображення (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Посилання"
+  },
+  "vl_opt_btn_add": {
+    "message": "додати"
+  },
+  "ih_opt_btn_import": {
+    "message": "Імпорт"
+  },
+  "vl_opt_btn_export": {
+    "message": "Експорт"
+  },
+  "lr_err_deldb": {
+    "message": "Сталася помилка, не вдалося видалити IndexedDb."
+  },
+  "lr_err_malformedurl": {
+    "message": "Неправильна URL-адреса."
+  },
+  "lr_err_fromdb": {
+    "message": "Url не знайдено."
+  },
+  "notif_title": {
+    "message": "УВАГА!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Позначте принаймні один тип елемента для моніторингу (наприклад, зображення чи посилання)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Наведена URL-адреса не має протоколів (наприклад, http:// або https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Наданий регулярний вираз недійсний."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Базу даних цього веб-сайту видалено. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Сталася помилка, не вдалося видалити базу даних цього веб-сайту:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Неможливо видалити протоколи з цієї URL-адреси.##Перевірте свою URL-адресу ще раз."
+  },
+  "notif_err_sldtld": {
+    "message": "Наведена URL-адреса не має домену другого або верхнього рівня (наприклад, \"google\" або \"com\" з URL-адреси https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Ви впевнені, що хочете видалити цей запис?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Ви впевнені, що хочете видалити цей запис?##Веб-сайт буде автоматично відкрито, щоб видалити зображення та/або базу даних посилань, а потім закрито."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Наведена URL-адреса не має домену другого або верхнього рівня (наприклад, \"google\" або \"com\" з URL-адреси https://www.google.com).##Ви впевнені, що продовжите?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Укажіть домен другого або верхнього рівня, щоб можна було додати цю URL-адресу регулярного виразу."
+  }
+}

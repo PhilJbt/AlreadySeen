@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "لینک ها و/یا تصاویر جدید را در صفحات وب مورد علاقه خود برجسته کنید!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex یا URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex اجازه می دهد تا چندین صفحه را تنها با یک خط نظارت کنید.##برای اطلاع از آن اینجا را کلیک کنید!"
+  },
+  "ih_opt_ttl": {
+    "message": "برای نظارت تایپ کنید:"
+  },
+  "ih_opt_chk_img": {
+    "message": "تصاویر"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "حداقل مساحت تصویر (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "پیوندها"
+  },
+  "vl_opt_btn_add": {
+    "message": "اضافه کنید"
+  },
+  "ih_opt_btn_import": {
+    "message": "واردات"
+  },
+  "vl_opt_btn_export": {
+    "message": "صادرات"
+  },
+  "lr_err_deldb": {
+    "message": "خطایی روی داد، حذف IndexedDb ناموفق بود."
+  },
+  "lr_err_malformedurl": {
+    "message": "آدرس اینترنتی ناقص."
+  },
+  "lr_err_fromdb": {
+    "message": "آدرس اینترنتی پیدا نشد"
+  },
+  "notif_title": {
+    "message": "هشدار!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "لطفاً حداقل یک نوع عنصر را برای نظارت بررسی کنید (یعنی تصویر یا پیوند)."
+  },
+  "notif_err_noProtocls": {
+    "message": "آدرس اینترنتی داده شده هیچ پروتکلی ندارد (به عنوان مثال http:// یا https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "regex داده شده معتبر نیست."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "پایگاه داده این وب سایت حذف شده است. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "خطایی روی داد، پایگاه داده این وب سایت حذف نشد:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "حذف پروتکل ها از این URL غیرممکن است.##نشانی اینترنتی خود را دوباره بررسی کنید."
+  },
+  "notif_err_sldtld": {
+    "message": "آدرس اینترنتی داده شده دامنه سطح دوم یا سطح بالایی ندارد (به عنوان مثال \"google\" یا \"com\" از آدرس https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "آیا مطمئن هستید که این ورودی را حذف می کنید؟"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "آیا مطمئن هستید که این ورودی را حذف می کنید؟##وب سایت به طور خودکار برای حذف تصاویر و/یا پایگاه داده پیوندها باز می شود و سپس بسته می شود."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "آدرس اینترنتی داده شده دامنه سطح دوم یا سطح بالایی ندارد (به عنوان مثال \"google\" یا \"com\" از آدرس https://www.google.com).##آیا مطمئن هستید که ادامه می دهید؟"
+  },
+  "prompt_err_sldtld": {
+    "message": "لطفاً یک دامنه سطح دوم یا سطح بالا ارائه دهید تا این URL regex به آن اضافه شود."
+  }
+}

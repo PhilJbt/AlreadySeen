@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Salungguhitan ang mga link at/o mga larawan sa iyong mga paboritong mga pahina sa web"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex o url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Binibigyang-daan ng Regex na subaybayan ang maramihang mga pahina na may isang linya lamang.##Mag-click dito upang malaman ang tungkol dito!"
+  },
+  "ih_opt_ttl": {
+    "message": "I-type ang susubaybayan:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Mga imahe"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimum na lugar ng larawan (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Mga link"
+  },
+  "vl_opt_btn_add": {
+    "message": "Idagdag"
+  },
+  "ih_opt_btn_import": {
+    "message": "Mag-import"
+  },
+  "vl_opt_btn_export": {
+    "message": "I-export"
+  },
+  "lr_err_deldb": {
+    "message": "Nagkaroon ng error, nabigo ang pagtanggal ng IndexedDb."
+  },
+  "lr_err_malformedurl": {
+    "message": "Maling nabuong url."
+  },
+  "lr_err_fromdb": {
+    "message": "Hindi nahanap ang url."
+  },
+  "notif_title": {
+    "message": "Babala!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Mangyaring suriin ang hindi bababa sa isang uri ng elemento na susubaybayan (ibig sabihin, larawan o link)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Ang ibinigay na url ay walang mga protocol (i.e. http:// o https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Ang regex na ibinigay ay hindi wasto."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Ang database ng website na ito ay tinanggal. Awtomatikong isasara ang tab na ito."
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Nagkaroon ng error, hindi maalis ang database ng website na ito:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Imposibleng alisin ang mga protocol sa URL na ito.##Suriin muli ang iyong URL."
+  },
+  "notif_err_sldtld": {
+    "message": "Ang ibinigay na url ay walang pangalawang antas o pinakamataas na antas ng domain (hal. \"google\" o \"com\" mula sa https://www.google.com na url)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Sigurado ka bang aalisin ang entry na ito?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Sigurado ka bang aalisin ang entry na ito?##Awtomatikong bubuksan ang website upang alisin ang database ng mga imahe at/o link, at pagkatapos ay isasara."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Ang ibinigay na url ay walang pangalawang antas o pinakamataas na antas ng domain (hal. \"google\" o \"com\" mula sa https://www.google.com url).##Sigurado ka bang magpapatuloy?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Mangyaring magbigay ng pangalawang antas o pinakamataas na antas ng domain upang maidagdag ang regex URL na ito."
+  }
+}

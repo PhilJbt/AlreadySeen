@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Angazia viungo vipya na/au picha kwenye kurasa zako za wavuti uzipendazo!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex au url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex inaruhusu kufuatilia kurasa nyingi kwa mstari mmoja pekee.##Bofya hapa ili kujifunza kuihusu!"
+  },
+  "ih_opt_ttl": {
+    "message": "Andika ili kufuatilia:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Picha"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Kiwango cha chini cha eneo la picha (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Viungo"
+  },
+  "vl_opt_btn_add": {
+    "message": "Ongeza"
+  },
+  "ih_opt_btn_import": {
+    "message": "Ingiza"
+  },
+  "vl_opt_btn_export": {
+    "message": "Hamisha"
+  },
+  "lr_err_deldb": {
+    "message": "Hitilafu imetokea, ufutaji wa IndexedDb haukufaulu."
+  },
+  "lr_err_malformedurl": {
+    "message": "Url iliyoharibika."
+  },
+  "lr_err_fromdb": {
+    "message": "Url haijapatikana."
+  },
+  "notif_title": {
+    "message": "Onyo!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Tafadhali angalia angalau aina moja ya kipengele ili kufuatilia (yaani picha au kiungo)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Url iliyotolewa haina itifaki (yaani http:// au https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Regex iliyotolewa sio halali."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Hifadhidata ya tovuti hii imeondolewa. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Hitilafu imetokea, hifadhidata ya tovuti hii haikuweza kuondolewa:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Haiwezekani kuondoa itifaki kutoka kwa URL hii.##Angalia URL yako tena."
+  },
+  "notif_err_sldtld": {
+    "message": "Url iliyotolewa haina kiwango cha pili au kikoa cha kiwango cha juu (k.m. \"google\" au \"com\" kutoka url ya https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Je, una uhakika wa kuondoa ingizo hili?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Je, una uhakika wa kuondoa ingizo hili?##Tovuti itafunguliwa kiotomatiki ili kuondoa hifadhidata ya picha na/au viungo, na kisha kufungwa."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Url iliyotolewa haina kiwango cha pili au kikoa cha kiwango cha juu (k.m. \"google\" au \"com\" kutoka url ya https://www.google.com).##Je, una uhakika utaendelea?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Tafadhali toa kikoa cha kiwango cha pili au cha juu ili URL hii ya regex iweze kuongezwa."
+  }
+}

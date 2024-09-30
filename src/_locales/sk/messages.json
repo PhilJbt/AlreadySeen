@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Zvýraznite nové odkazy a/alebo obrázky na svojich obľúbených webových stránkach!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex alebo adresa URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex umožňuje sledovať viacero stránok iba jedným riadkom.##Kliknutím sem sa o tom dozviete!"
+  },
+  "ih_opt_ttl": {
+    "message": "Typ na sledovanie:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Obrázky"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimálna plocha obrázka (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Odkazy"
+  },
+  "vl_opt_btn_add": {
+    "message": "Pridať"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importovať"
+  },
+  "vl_opt_btn_export": {
+    "message": "Exportovať"
+  },
+  "lr_err_deldb": {
+    "message": "Vyskytla sa chyba, vymazanie IndexedDb zlyhalo."
+  },
+  "lr_err_malformedurl": {
+    "message": "Chybná webová adresa."
+  },
+  "lr_err_fromdb": {
+    "message": "Adresa URL sa nenašla."
+  },
+  "notif_title": {
+    "message": "POZOR!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Začiarknite aspoň jeden typ prvku, ktorý chcete monitorovať (t. j. obrázok alebo odkaz)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Daná adresa URL nemá žiadne protokoly (t. j. http:// alebo https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Daný regulárny výraz nie je platný."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Databáza tohto webu bola odstránená. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Vyskytla sa chyba, databázu tohto webu nebolo možné odstrániť:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Nie je možné odstrániť protokoly z tejto adresy URL.##Znova skontrolujte svoju adresu URL."
+  },
+  "notif_err_sldtld": {
+    "message": "Daná webová adresa nemá žiadnu doménu druhej alebo najvyššej úrovne (napr. „google“ alebo „com“ z webovej adresy https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Naozaj chcete odstrániť tento záznam?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Naozaj chcete odstrániť tento záznam?##Webová stránka sa automaticky otvorí, aby sa odstránila databáza obrázkov a/alebo odkazov, a potom sa zatvorí."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Daná adresa URL neobsahuje doménu druhej úrovne ani domény najvyššej úrovne (napr. „google“ alebo „com“ z adresy URL https://www.google.com).##Naozaj chcete pokračovať?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Zadajte doménu druhej úrovne alebo najvyššej úrovne, aby bolo možné pridať túto webovú adresu regulárneho výrazu."
+  }
+}

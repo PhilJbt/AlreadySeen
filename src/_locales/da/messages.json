@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Fremhæv nye links og/eller billeder på dine yndlingswebsider!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex eller url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex gør det muligt at overvåge flere sider med kun én linje.##Klik her for at lære om det!"
+  },
+  "ih_opt_ttl": {
+    "message": "Type for at overvåge:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Billeder"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimum billedareal (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Links"
+  },
+  "vl_opt_btn_add": {
+    "message": "Tilføje"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importere"
+  },
+  "vl_opt_btn_export": {
+    "message": "Eksportere"
+  },
+  "lr_err_deldb": {
+    "message": "Der opstod en fejl. IndexedDb-sletningen mislykkedes."
+  },
+  "lr_err_malformedurl": {
+    "message": "Forkert url."
+  },
+  "lr_err_fromdb": {
+    "message": "URL ikke fundet."
+  },
+  "notif_title": {
+    "message": "Advarsel!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Kontroller venligst mindst én type element, der skal overvåges (f.eks. billede eller link)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Den angivne url har ingen protokoller (dvs. http:// eller https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Det angivne regex er ikke gyldigt."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Denne hjemmesides database er blevet fjernet. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Der opstod en fejl, denne hjemmesides database kunne ikke fjernes:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Det er umuligt at fjerne protokoller fra denne URL.##Tjek din URL igen."
+  },
+  "notif_err_sldtld": {
+    "message": "Den angivne url har ikke noget andet niveau eller topdomæne (f.eks. \"google\" eller \"com\" fra https://www.google.com url'en)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Er du sikker på at du vil fjerne denne post?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Er du sikker på at fjerne denne post?##Webstedet åbnes automatisk for at fjerne databasen med billeder og/eller links og lukkes derefter."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Den angivne url har intet domæne på andet niveau eller topniveau (f.eks. \"google\" eller \"com\" fra https://www.google.com url).##Er du sikker på at du vil fortsætte?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Angiv et domæne på andet niveau eller topniveau, så denne regex-URL kan føjes til."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Επισημάνετε νέους συνδέσμους ή/και εικόνες στις αγαπημένες σας ιστοσελίδες!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex ή url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Το Regex επιτρέπει την παρακολούθηση πολλών σελίδων με μία μόνο γραμμή.##Κάντε κλικ εδώ για να μάθετε γι' αυτό!"
+  },
+  "ih_opt_ttl": {
+    "message": "Πληκτρολογήστε για παρακολούθηση:"
+  },
+  "ih_opt_chk_img": {
+    "message": "εικόνες"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Ελάχιστη περιοχή εικόνας (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Εδαφος διά παιγνίδι γκολφ"
+  },
+  "vl_opt_btn_add": {
+    "message": "Προσθέτω"
+  },
+  "ih_opt_btn_import": {
+    "message": "Εισαγωγή"
+  },
+  "vl_opt_btn_export": {
+    "message": "Εξαγωγή"
+  },
+  "lr_err_deldb": {
+    "message": "Παρουσιάστηκε σφάλμα, η διαγραφή IndexedDb απέτυχε."
+  },
+  "lr_err_malformedurl": {
+    "message": "Λανθασμένη μορφή url."
+  },
+  "lr_err_fromdb": {
+    "message": "Το URL δεν βρέθηκε."
+  },
+  "notif_title": {
+    "message": "Προειδοποίηση!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Ελέγξτε τουλάχιστον έναν τύπο στοιχείου προς παρακολούθηση (π.χ. εικόνα ή σύνδεσμο)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Το url που δίνεται δεν έχει πρωτόκολλα (π.χ. http:// ή https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Το regex που δίνεται δεν είναι έγκυρο."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Η βάση δεδομένων αυτού του ιστότοπου έχει αφαιρεθεί. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Παρουσιάστηκε σφάλμα, δεν ήταν δυνατή η κατάργηση της βάσης δεδομένων αυτού του ιστότοπου:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Αδύνατη η κατάργηση πρωτοκόλλων από αυτήν τη διεύθυνση URL.##Ελέγξτε ξανά τη διεύθυνση URL σας."
+  },
+  "notif_err_sldtld": {
+    "message": "Η διεύθυνση url που δίνεται δεν έχει τομέα δεύτερου ή ανώτατου επιπέδου (π.χ. \"google\" ή \"com\" από τη διεύθυνση url https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Είστε βέβαιοι ότι θα καταργήσετε αυτήν την καταχώριση;"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Είστε βέβαιοι ότι θα καταργήσετε αυτήν την καταχώριση;##Ο ιστότοπος θα ανοίξει αυτόματα για να αφαιρεθεί η βάση δεδομένων εικόνων ή/και συνδέσμων και στη συνέχεια θα κλείσει."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Η διεύθυνση url που δίνεται δεν έχει τομέα δεύτερου ή ανώτατου επιπέδου (π.χ. \"google\" ή \"com\" από τη διεύθυνση url https://www.google.com).##Είστε βέβαιοι ότι θα συνεχίσετε;"
+  },
+  "prompt_err_sldtld": {
+    "message": "Καταχωρίστε έναν τομέα δεύτερου ή ανώτατου επιπέδου, ώστε να μπορεί να προστεθεί αυτό το regex URL."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Favori web sayfalarınızdaki yeni bağlantıları ve/veya görselleri vurgulayın!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Normal ifade veya URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Normal ifade"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex, birden fazla sayfayı tek satırla izlemeye olanak tanır.##Bunu öğrenmek için buraya tıklayın!"
+  },
+  "ih_opt_ttl": {
+    "message": "İzlemek için yazın:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Görseller"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimum görüntü alanı (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Bağlantılar"
+  },
+  "vl_opt_btn_add": {
+    "message": "Eklemek"
+  },
+  "ih_opt_btn_import": {
+    "message": "İçe aktarmak"
+  },
+  "vl_opt_btn_export": {
+    "message": "İhracat"
+  },
+  "lr_err_deldb": {
+    "message": "Bir hata oluştu, IndexedDb silme işlemi başarısız oldu."
+  },
+  "lr_err_malformedurl": {
+    "message": "Yanlış biçimlendirilmiş URL."
+  },
+  "lr_err_fromdb": {
+    "message": "URL bulunamadı."
+  },
+  "notif_title": {
+    "message": "Uyarı!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Lütfen izlenecek en az bir öğe türünü (ör. resim veya bağlantı) kontrol edin."
+  },
+  "notif_err_noProtocls": {
+    "message": "Verilen URL'de protokol yok (ör. http:// veya https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Verilen normal ifade geçerli değil."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Bu web sitesinin veritabanı kaldırıldı. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Bir hata oluştu; bu web sitesinin veritabanı kaldırılamadı:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Bu URL'den protokolleri kaldırmak imkansız.##URL'nizi tekrar kontrol edin."
+  },
+  "notif_err_sldtld": {
+    "message": "Belirtilen URL'nin ikinci düzey veya üst düzey alan adı yok (ör. https://www.google.com URL'sindeki \"google\" veya \"com\")."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Bu girişi kaldıracağınızdan emin misiniz?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Bu girişi kaldıracağınızdan emin misiniz?##Resimler ve/veya bağlantı veritabanını kaldırmak için web sitesi otomatik olarak açılacak ve ardından kapatılacaktır."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Verilen URL'de ikinci düzey veya üst düzey alan adı yok (ör. https://www.google.com URL'sindeki \"google\" veya \"com\").##Devam edeceğinizden emin misiniz?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Bu normal ifade URL'sinin eklenebilmesi için lütfen ikinci düzey veya üst düzey bir alan adı sağlayın."
+  }
+}

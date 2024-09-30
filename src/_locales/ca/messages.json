@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Ressalteu enllaços i/o imatges nous a les vostres pàgines web preferides!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex o URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex permet supervisar diverses pàgines amb només una línia.##Feu clic aquí per obtenir-ne informació!"
+  },
+  "ih_opt_ttl": {
+    "message": "Tipus per supervisar:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Imatges"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Àrea mínima d'imatge (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Enllaços"
+  },
+  "vl_opt_btn_add": {
+    "message": "Afegeix"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importar"
+  },
+  "vl_opt_btn_export": {
+    "message": "Exporta"
+  },
+  "lr_err_deldb": {
+    "message": "S'ha produït un error, la supressió d'IndexedDb ha fallat."
+  },
+  "lr_err_malformedurl": {
+    "message": "URL mal format."
+  },
+  "lr_err_fromdb": {
+    "message": "No s'ha trobat l'URL."
+  },
+  "notif_title": {
+    "message": "Avís!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Si us plau, comproveu almenys un tipus d'element a supervisar (és a dir, imatge o enllaç)."
+  },
+  "notif_err_noProtocls": {
+    "message": "L'URL indicat no té cap protocol (és a dir, http:// o https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "L'expressió regular proporcionada no és vàlida."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "La base de dades d'aquest lloc web s'ha eliminat. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "S'ha produït un error, la base de dades d'aquest lloc web no s'ha pogut eliminar:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Impossible eliminar protocols d'aquest URL.##Comproveu el vostre URL de nou."
+  },
+  "notif_err_sldtld": {
+    "message": "L'URL indicat no té domini de segon nivell o de nivell superior (p. ex., \"google\" o \"com\" de l'URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Esteu segur d'eliminar aquesta entrada?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Esteu segur d'eliminar aquesta entrada?##El lloc web s'obrirà automàticament per eliminar la base de dades d'imatges i/o enllaços, i després es tancarà."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "L'URL indicat no té domini de segon nivell o de nivell superior (p. ex., \"google\" o \"com\" de l'URL https://www.google.com).##Esteu segur que continueu?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Proporcioneu un domini de segon nivell o de nivell superior perquè es pugui afegir aquest URL d'expressió regular."
+  }
+}

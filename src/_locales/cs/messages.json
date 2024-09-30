@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Zvýrazněte nové odkazy a/nebo obrázky na svých oblíbených webových stránkách!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex nebo url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex umožňuje sledovat více stránek pouze jedním řádkem.##Klikněte sem a dozvíte se o tom!"
+  },
+  "ih_opt_ttl": {
+    "message": "Typ ke sledování:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Obrázky"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimální plocha obrázku (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Odkazy"
+  },
+  "vl_opt_btn_add": {
+    "message": "Přidat"
+  },
+  "ih_opt_btn_import": {
+    "message": "Importovat"
+  },
+  "vl_opt_btn_export": {
+    "message": "Vývozní"
+  },
+  "lr_err_deldb": {
+    "message": "Došlo k chybě, smazání IndexedDb se nezdařilo."
+  },
+  "lr_err_malformedurl": {
+    "message": "Chybná adresa URL."
+  },
+  "lr_err_fromdb": {
+    "message": "Adresa URL nebyla nalezena."
+  },
+  "notif_title": {
+    "message": "Varování!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Zaškrtněte prosím alespoň jeden typ prvku, který chcete sledovat (tj. obrázek nebo odkaz)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Zadaná adresa URL nemá žádné protokoly (tj. http:// nebo https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Zadaný regulární výraz není platný."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Databáze tohoto webu byla odstraněna. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Došlo k chybě, databázi tohoto webu nelze odstranit:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Protokoly z této adresy URL nelze odstranit.##Znovu zkontrolujte adresu URL."
+  },
+  "notif_err_sldtld": {
+    "message": "Zadaná adresa URL nemá žádnou doménu druhé úrovně ani domény nejvyšší úrovně (např. „google“ nebo „com“ z adresy URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Opravdu chcete tento záznam odstranit?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Opravdu chcete odstranit tento záznam?##Webová stránka se automaticky otevře, aby se odstranila databáze obrázků a/nebo odkazů, a poté se zavře."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Zadaná adresa URL nemá doménu druhé úrovně ani domény nejvyšší úrovně (např. „google“ nebo „com“ z adresy https://www.google.com).##Opravdu chcete pokračovat?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Uveďte prosím doménu druhé úrovně nebo domény nejvyšší úrovně, aby bylo možné tuto adresu URL regulárního výrazu přidat."
+  }
+}

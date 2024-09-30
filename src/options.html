@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Already Seen</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<link rel="icon" type="image/png" href="/img/icn/icn48.png" />
+	<link rel="stylesheet" href="options.css">
+</head>
+<body>
+	<!-- ROOT -->
+	<div class="cont">
+		<!-- CONTAINER -->
+		<div class="cont-global">
+			<!-- IDENTITY -->
+			<div class="identity">
+				<img src="img/icn/icn48.png"></img>
+				<ttl>Already Seen</ttl>
+			</div>
+			<!-- ADD NEW ENTRY -->
+			<div>
+				<div class="cont-add">
+					<!-- INPUT FRAME -->
+					<div class="cont-inp">
+						<!-- URL INPUT -->
+						<input data-i18n="ph_opt_inp_url" type="text" id="inp-url" placeholder="">
+						<!-- NODE TYPE CHECKBOXES -->
+						<div id="cont-rgx">
+							<input type="checkbox" id="chk-regex" />
+							<label data-i18n="ih_opt_chk_rgx" for="chk-regex"></label>
+						</div>
+						<!-- DOCUMENTATION LINK -->
+						<a class="img-nfo" data-i18n="tl_opt_nfo_rgx" data-tooltip="" href="https://github.com/PhilJbt/AlreadySeen/tree/main/docs/man_regex/readme.md" target="_blank"><img src="img/info.png" /></a>
+					</div>
+					<!-- CHECKBOX FRAME -->
+					<fieldset id="cont-chk">
+						<legend data-i18n="ih_opt_ttl"></legend>
+						<div>
+							<input type="checkbox" id="chk-images" />
+							<label data-i18n="ih_opt_chk_img" for="chk-images"></label>
+						</div>
+						<div id="cont-imagesSizeMin">
+							<input type="number" id="inp-imagesSizeMin" value="0" min="0" />
+							<label data-i18n="ih_opt_chk_imgsizemax" for="inp-imagesSizeMin"></label>
+						</div>
+						<div>
+							<input type="checkbox" id="chk-links" />
+							<label data-i18n="ih_opt_chk_lnk" for="chk-links"></label>
+						</div>
+					</fieldset>
+					<!-- ADD BUTTON -->
+					<input data-i18n="vl_opt_btn_add" type="button" id="btn-add" value="" />
+				</div>
+				<p class="noteError"></p>
+			</div>
+			<!-- MONITORED URLS LIST -->
+			<monitTitle>Monitored links:</monitTitle>
+			<div id="list-monit"></div>
+			<!-- BACKUP MENU -->
+			<div class="bord-mnu">
+				<div class="cont-mnu">
+					<!-- IMPORT -->
+					<label data-i18n="ih_opt_btn_import" for="btn-import"></label>
+					<input id="btn-import" type="file" accept=".txt" hidden/>
+					<!-- EXPORT -->
+					<input data-i18n="vl_opt_btn_export" type="button" id="btn-export" value="" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- JS -->
+  <script src="psl.min.js"></script>
+  <script src="urlTools.js"></script>
+  <script src="options.js"></script>
+  <script src="localize.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "ನಿಮ್ಮ ಮೆಚ್ಚಿನ ವೆಬ್ ಪುಟಗಳಲ್ಲಿ ಹೊಸ ಲಿಂಕ್‌ಗಳು ಮತ್ತು/ಅಥವಾ ಚಿತ್ರಗಳನ್ನು ಹೈಲೈಟ್ ಮಾಡಿ!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex ಅಥವಾ url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "ರೆಜೆಕ್ಸ್"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex ಒಂದೇ ಸಾಲಿನಲ್ಲಿ ಬಹು ಪುಟಗಳನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಲು ಅನುಮತಿಸುತ್ತದೆ.##ಅದರ ಬಗ್ಗೆ ತಿಳಿಯಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ!"
+  },
+  "ih_opt_ttl": {
+    "message": "ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಲು ಟೈಪ್ ಮಾಡಿ:"
+  },
+  "ih_opt_chk_img": {
+    "message": "ಚಿತ್ರಗಳು"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "ಕನಿಷ್ಠ ಚಿತ್ರ ಪ್ರದೇಶ (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "ಲಿಂಕ್‌ಗಳು"
+  },
+  "vl_opt_btn_add": {
+    "message": "ಸೇರಿಸಿ"
+  },
+  "ih_opt_btn_import": {
+    "message": "ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ"
+  },
+  "vl_opt_btn_export": {
+    "message": "ರಫ್ತು ಮಾಡಿ"
+  },
+  "lr_err_deldb": {
+    "message": "ದೋಷ ಸಂಭವಿಸಿದೆ, IndexedDb ಅಳಿಸುವಿಕೆ ವಿಫಲವಾಗಿದೆ."
+  },
+  "lr_err_malformedurl": {
+    "message": "ದೋಷಪೂರಿತ url."
+  },
+  "lr_err_fromdb": {
+    "message": "Url ಕಂಡುಬಂದಿಲ್ಲ."
+  },
+  "notif_title": {
+    "message": "ಎಚ್ಚರಿಕೆ!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "ದಯವಿಟ್ಟು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಲು ಕನಿಷ್ಠ ಒಂದು ರೀತಿಯ ಅಂಶವನ್ನು ಪರಿಶೀಲಿಸಿ (ಅಂದರೆ ಚಿತ್ರ ಅಥವಾ ಲಿಂಕ್)."
+  },
+  "notif_err_noProtocls": {
+    "message": "ನೀಡಿರುವ url ಯಾವುದೇ ಪ್ರೋಟೋಕಾಲ್‌ಗಳನ್ನು ಹೊಂದಿಲ್ಲ (ಅಂದರೆ http:// ಅಥವಾ https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "ನೀಡಿರುವ ರಿಜೆಕ್ಸ್ ಮಾನ್ಯವಾಗಿಲ್ಲ."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "ಈ ವೆಬ್‌ಸೈಟ್‌ನ ಡೇಟಾಬೇಸ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "ದೋಷ ಸಂಭವಿಸಿದೆ, ಈ ವೆಬ್‌ಸೈಟ್‌ನ ಡೇಟಾಬೇಸ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲಾಗಲಿಲ್ಲ:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "ಈ URL ನಿಂದ ಪ್ರೋಟೋಕಾಲ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು ಅಸಾಧ್ಯ.##ನಿಮ್ಮ URL ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ."
+  },
+  "notif_err_sldtld": {
+    "message": "ನೀಡಿರುವ url ಎರಡನೇ ಹಂತದ ಅಥವಾ ಉನ್ನತ ಮಟ್ಟದ ಡೊಮೇನ್ ಅನ್ನು ಹೊಂದಿಲ್ಲ (ಉದಾ. https://www.google.com url ನಿಂದ \"google\" ಅಥವಾ \"com\")."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "ಈ ನಮೂದನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "ಈ ನಮೂದನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?##ಚಿತ್ರಗಳು ಮತ್ತು/ಅಥವಾ ಲಿಂಕ್‌ಗಳ ಡೇಟಾಬೇಸ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲು ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತೆರೆಯಲಾಗುತ್ತದೆ ಮತ್ತು ನಂತರ ಮುಚ್ಚಲಾಗುತ್ತದೆ."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "ನೀಡಿರುವ url ಯಾವುದೇ ಎರಡನೇ ಹಂತದ ಅಥವಾ ಉನ್ನತ ಮಟ್ಟದ ಡೊಮೇನ್ ಅನ್ನು ಹೊಂದಿಲ್ಲ (ಉದಾ. https://www.google.com url ನಿಂದ \"google\" ಅಥವಾ \"com\").##ನೀವು ಮುಂದುವರಿಯುವುದು ಖಚಿತವೇ?"
+  },
+  "prompt_err_sldtld": {
+    "message": "ದಯವಿಟ್ಟು ಎರಡನೇ ಹಂತದ ಅಥವಾ ಉನ್ನತ ಮಟ್ಟದ ಡೊಮೇನ್ ಅನ್ನು ಒದಗಿಸಿ ಇದರಿಂದ ಈ ರಿಜೆಕ್ಸ್ URL ಅನ್ನು ಸೇರಿಸಬಹುದು."
+  }
+}

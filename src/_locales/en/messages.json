@@ -1,0 +1,110 @@
+{
+  "extTitle": {
+    "message": "Already Seen",
+    "description": "Extension name [manifest.json]"
+  },
+  "extDescription": {
+    "message": "Highlight new links and/or images on your favorite web pages!",
+    "description": "Extension description [manifest.json]"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex or url",
+    "description": "Url input text placeholder [options]"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex",
+    "description": "Input checkbox to check if the usee input string is regex [options]"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex allows to monitor multiple pages with only one line.\u000AClick here to learn about it!",
+    "description": "Tooltip next to the url input text [options]"
+  },
+  "ih_opt_ttl": {
+    "message": "Type to monitor:",
+    "description": "Title of the url stored list [options]"
+  },
+  "ih_opt_chk_img": {
+    "message": "Images",
+    "description": "Checkbox value to save images [options]"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimum image area (px)",
+    "description": "Minimum pixel size for images to be saved, condition is width*height > minSize to be taken into account [options]"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Links",
+    "description": "Checkbox value to save links [options]"
+  },
+  "vl_opt_btn_add": {
+    "message": "Add",
+    "description": "Button value to store a new url [options]"
+  },
+  "ih_opt_btn_import": {
+    "message": "Import",
+    "description": "Button value to import user's configuration [options]"
+  },
+  "vl_opt_btn_export": {
+    "message": "Export",
+    "description": "Button value to export user's configuration [options]"
+  },
+  "lr_err_deldb": {
+    "message": "An error occured, the IndexedDb deletion failed.",
+    "description": "Alert message if deleting an indexedDb triggered by the trash button failed because of the IndexedDb interaction [options]"
+  },
+  "lr_err_malformedurl": {
+    "message": "Malformed url.",
+    "description": "Alert message if deleting an indexedDb triggered by the trash button failed because the url is malformed [options]"
+  },
+  "lr_err_fromdb": {
+    "message": "Url not found.",
+    "description": "Alert message if deleting an indexedDb triggered by the trash button failed because the url has been not found in chrome.storage.sync [options]"
+  },
+  "notif_title": {
+    "message": "Warning!",
+    "description": "Browser notification used in case the user performs an invalid procedure, or an error occurs [options]"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Please check at least one type of element to monitor (i.e. image or link).",
+    "description": "Neither image nor links checkbox is checked [options]"
+  },
+  "notif_err_noProtocls": {
+    "message": "The url given has no protocols (i.e. http:// or https://)",
+    "description": "The url given by the user has no protocols (i.e. http:// or https://) [options]"
+  },
+  "notif_err_unproperRegex": {
+    "message": "The regex given is not valid.",
+    "description": "The regex given by the user is not valid [options]"
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "This website's database has been removed. This tab will automatically be closed.",
+    "description": "Erase IndexedDb has failed [background]"
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "An error occured, this website's database could not be removed:",
+    "description": "Erase IndexedDb has failed [background]"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Impossible to remove protocols from this URL.\u000ACheck your URL again.",
+    "description": "Remove protocols from the input URL fails [options]"
+  },
+  "notif_err_sldtld": {
+    "message": "The url given has no second-level or top-level domain (e.g. \"google\" or \"com\" from the https://www.google.com url).",
+    "description": "The url given by the user has no second-level or top-level domain [options]"
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Are you sure to remove this entry?",
+    "description": "Ask the user confirmation to remove this stored regex [options]"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Are you sure to remove this entry?\nThe website will be automatically opened to remove the images and/or links database, and then closed.",
+    "description": "Ask the user confirmation to remove this stored URL, then open the website and erase the IndexedDb [options]"
+  },
+  "cnfrm_err_sldtld": {
+    "message": "The url given has no second-level or top-level domain (e.g. \"google\" or \"com\" from the https://www.google.com url).\u000AAre you sure to continue?",
+    "description": "The regex given by the user has no second-level or top-level domain [options]"
+  },
+  "prompt_err_sldtld": {
+    "message": "Please provide a second-level or top-level domain so this regex URL can be added to.",
+    "description": "Since the user gave a regex without any sld or tld, ask them which sld/tld to use for the URL stored list [options]"
+  }
+}

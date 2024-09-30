@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Korosta uusia linkkejä ja/tai kuvia suosikkisivuillesi!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex tai url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex mahdollistaa useiden sivujen seurannan vain yhdellä rivillä.##Klikkaa tästä saadaksesi lisätietoja siitä!"
+  },
+  "ih_opt_ttl": {
+    "message": "Kirjoita seurataksesi:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Kuvat"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Kuvan vähimmäispinta-ala (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Linkit"
+  },
+  "vl_opt_btn_add": {
+    "message": "Lisätä"
+  },
+  "ih_opt_btn_import": {
+    "message": "Tuoda"
+  },
+  "vl_opt_btn_export": {
+    "message": "Viedä"
+  },
+  "lr_err_deldb": {
+    "message": "Tapahtui virhe, IndexedDb-poisto epäonnistui."
+  },
+  "lr_err_malformedurl": {
+    "message": "Virheellinen URL-osoite."
+  },
+  "lr_err_fromdb": {
+    "message": "URL-osoitetta ei löydy."
+  },
+  "notif_title": {
+    "message": "Varoitus!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Tarkista vähintään yksi seurattava elementtityyppi (eli kuva tai linkki)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Annetussa URL-osoitteessa ei ole protokollia (esim. http:// tai https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Annettu säännöllinen lauseke ei kelpaa."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Tämän sivuston tietokanta on poistettu. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Tapahtui virhe, tämän verkkosivuston tietokantaa ei voitu poistaa:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Tästä URL-osoitteesta on mahdotonta poistaa protokollia.##Tarkista URL-osoite uudelleen."
+  },
+  "notif_err_sldtld": {
+    "message": "Annetulla URL-osoitteella ei ole toisen tason tai ylätason verkkotunnusta (esim. \"google\" tai \"com\" https://www.google.com-URL-osoitteesta)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Haluatko varmasti poistaa tämän merkinnän?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Oletko varma, että poistat tämän merkinnän?##Sivusto avataan automaattisesti kuvien ja/tai linkkien poistamiseksi ja suljetaan sitten."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Annetussa URL-osoitteessa ei ole toisen tason tai ylätason verkkotunnusta (esim. \"google\" tai \"com\" https://www.google.com-URL-osoitteesta).##Jatkatko varmasti?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Anna toisen tason tai ylätason verkkotunnus, jotta tämä regex-URL-osoite voidaan lisätä."
+  }
+}

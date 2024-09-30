@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Выделите новые ссылки и/или изображения на ваших любимых веб-страницах!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Регулярное выражение или URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "регулярное выражение"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex позволяет отслеживать несколько страниц с помощью всего одной строки.##Нажмите здесь, чтобы узнать об этом!"
+  },
+  "ih_opt_ttl": {
+    "message": "Тип для мониторинга:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Изображения"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Минимальная площадь изображения (пикселей)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Ссылки"
+  },
+  "vl_opt_btn_add": {
+    "message": "Добавлять"
+  },
+  "ih_opt_btn_import": {
+    "message": "Импорт"
+  },
+  "vl_opt_btn_export": {
+    "message": "Экспорт"
+  },
+  "lr_err_deldb": {
+    "message": "Произошла ошибка, удаление IndexedDb не удалось."
+  },
+  "lr_err_malformedurl": {
+    "message": "Неверный URL-адрес."
+  },
+  "lr_err_fromdb": {
+    "message": "URL-адрес не найден."
+  },
+  "notif_title": {
+    "message": "Предупреждение!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Отметьте хотя бы один тип элемента для отслеживания (например, изображение или ссылку)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Указанный URL-адрес не содержит протоколов (например, http:// или https://)."
+  },
+  "notif_err_unproperRegex": {
+    "message": "Указанное регулярное выражение недействительно."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "База данных этого сайта была удалена. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Произошла ошибка, не удалось удалить базу данных этого сайта:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Невозможно удалить протоколы с этого URL.##Проверьте свой URL еще раз."
+  },
+  "notif_err_sldtld": {
+    "message": "Указанный URL-адрес не имеет домена второго или верхнего уровня (например, «google» или «com» ​​из URL-адреса https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Вы уверены, что удалите эту запись?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Вы уверены удалить эту запись?##Веб-сайт будет автоматически открыт для удаления базы данных изображений и/или ссылок, а затем закрыт."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "В указанном URL-адресе нет домена второго или верхнего уровня (например, «google» или «com» ​​из URL-адреса https://www.google.com).##Вы уверены, что продолжите?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Укажите домен второго или верхнего уровня, чтобы можно было добавить этот URL-адрес регулярного выражения."
+  }
+}

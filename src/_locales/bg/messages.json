@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Маркирайте нови връзки и/или изображения на любимите си уеб страници!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex или url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Regex"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex позволява да се наблюдават множество страници само с един ред.##Щракнете тук, за да научите за това!"
+  },
+  "ih_opt_ttl": {
+    "message": "Въведете за наблюдение:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Изображения"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Минимална площ на изображението (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Връзки"
+  },
+  "vl_opt_btn_add": {
+    "message": "Добавете"
+  },
+  "ih_opt_btn_import": {
+    "message": "Импортиране"
+  },
+  "vl_opt_btn_export": {
+    "message": "Експортиране"
+  },
+  "lr_err_deldb": {
+    "message": "Възникна грешка, изтриването на IndexedDb не бе успешно."
+  },
+  "lr_err_malformedurl": {
+    "message": "Неправилен URL адрес."
+  },
+  "lr_err_fromdb": {
+    "message": "Url не е намерен."
+  },
+  "notif_title": {
+    "message": "Внимание!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Моля, проверете поне един тип елемент за наблюдение (напр. изображение или връзка)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Даденият URL адрес няма протоколи (т.е. http:// или https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Даденият регулярен израз не е валиден."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Базата данни на този уебсайт е премахната. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Възникна грешка, базата данни на този уебсайт не можа да бъде премахната:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Невъзможно е премахването на протоколи от този URL адрес.##Проверете URL адреса си отново."
+  },
+  "notif_err_sldtld": {
+    "message": "Даденият URL адрес няма домейн от второ или първо ниво (напр. „google“ или „com“ от URL адреса https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Сигурни ли сте да премахнете този запис?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Сигурни ли сте, че премахвате този запис?##Уебсайтът ще се отвори автоматично, за да премахне базата данни с изображения и/или връзки, и след това ще бъде затворен."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Даденият URL адрес няма домейн от второ или първо ниво (напр. „google“ или „com“ от URL адреса https://www.google.com).##Сигурни ли сте да продължите?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Моля, предоставете домейн от второ или първо ниво, за да може да се добави този регулярен израз URL."
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "உங்களுக்குப் பிடித்த இணையப் பக்கங்களில் புதிய இணைப்புகள் மற்றும்/அல்லது படங்களை முன்னிலைப்படுத்தவும்!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex அல்லது url"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "ரெஜெக்ஸ்"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "ஒரே ஒரு வரியில் பல பக்கங்களைக் கண்காணிக்க Regex அனுமதிக்கிறது.##அதைப் பற்றி அறிய இங்கே கிளிக் செய்யவும்!"
+  },
+  "ih_opt_ttl": {
+    "message": "கண்காணிக்க வகை:"
+  },
+  "ih_opt_chk_img": {
+    "message": "படங்கள்"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "குறைந்தபட்ச படப் பகுதி (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "இணைப்புகள்"
+  },
+  "vl_opt_btn_add": {
+    "message": "சேர்"
+  },
+  "ih_opt_btn_import": {
+    "message": "இறக்குமதி"
+  },
+  "vl_opt_btn_export": {
+    "message": "ஏற்றுமதி"
+  },
+  "lr_err_deldb": {
+    "message": "பிழை ஏற்பட்டது, IndexedDb நீக்கம் தோல்வியடைந்தது."
+  },
+  "lr_err_malformedurl": {
+    "message": "தவறான url."
+  },
+  "lr_err_fromdb": {
+    "message": "Url கிடைக்கவில்லை."
+  },
+  "notif_title": {
+    "message": "எச்சரிக்கை!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "கண்காணிக்க குறைந்தபட்சம் ஒரு வகை உறுப்புகளைச் சரிபார்க்கவும் (அதாவது படம் அல்லது இணைப்பு)."
+  },
+  "notif_err_noProtocls": {
+    "message": "கொடுக்கப்பட்ட url இல் நெறிமுறைகள் இல்லை (அதாவது http:// அல்லது https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "கொடுக்கப்பட்ட ரீஜெக்ஸ் செல்லாது."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "இந்த இணையதளத்தின் தரவுத்தளம் அகற்றப்பட்டது. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "பிழை ஏற்பட்டது, இந்த இணையதளத்தின் தரவுத்தளத்தை அகற்ற முடியவில்லை:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "இந்த URL இலிருந்து நெறிமுறைகளை அகற்றுவது சாத்தியமில்லை.##உங்கள் URL ஐ மீண்டும் சரிபார்க்கவும்."
+  },
+  "notif_err_sldtld": {
+    "message": "கொடுக்கப்பட்ட url இல் இரண்டாம் நிலை அல்லது உயர்நிலை டொமைன் இல்லை (எ.கா. https://www.google.com url இலிருந்து \"google\" அல்லது \"com\")."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "இந்த உள்ளீட்டை நிச்சயமாக அகற்றுகிறீர்களா?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "இந்த பதிவை நீக்குவது உறுதியா?##படங்கள் மற்றும்/அல்லது இணைப்புகள் தரவுத்தளத்தை அகற்ற இணையதளம் தானாகவே திறக்கப்பட்டு, பின்னர் மூடப்படும்."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "கொடுக்கப்பட்ட url இல் இரண்டாம் நிலை அல்லது உயர்நிலை டொமைன் இல்லை (எ.கா. https://www.google.com url இலிருந்து \"google\" அல்லது \"com\").##தொடர்வதில் உறுதியாக உள்ளீர்களா?"
+  },
+  "prompt_err_sldtld": {
+    "message": "தயவுசெய்து இரண்டாம் நிலை அல்லது உயர்நிலை டொமைனை வழங்கவும், இதன் மூலம் இந்த ரீஜெக்ஸ் URL ஐ சேர்க்க முடியும்."
+  }
+}

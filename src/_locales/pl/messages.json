@@ -1,0 +1,83 @@
+{
+  "extTitle": {
+    "message": "Already Seen"
+  },
+  "extDescription": {
+    "message": "Zaznacz nowe linki i/lub obrazy na swoich ulubionych stronach internetowych!"
+  },
+  "ph_opt_inp_url": {
+    "message": "Regex lub adres URL"
+  },
+  "ih_opt_chk_rgx": {
+    "message": "Wyrażenie regularne"
+  },
+  "tl_opt_nfo_rgx": {
+    "message": "Regex pozwala monitorować wiele stron za pomocą tylko jednej linii.##Kliknij tutaj, aby się o tym dowiedzieć!"
+  },
+  "ih_opt_ttl": {
+    "message": "Wpisz do monitorowania:"
+  },
+  "ih_opt_chk_img": {
+    "message": "Obrazy"
+  },
+  "ih_opt_chk_imgsizemax": {
+    "message": "Minimalny obszar obrazu (px)"
+  },
+  "ih_opt_chk_lnk": {
+    "message": "Spinki do mankietów"
+  },
+  "vl_opt_btn_add": {
+    "message": "Dodać"
+  },
+  "ih_opt_btn_import": {
+    "message": "Import"
+  },
+  "vl_opt_btn_export": {
+    "message": "Eksport"
+  },
+  "lr_err_deldb": {
+    "message": "Wystąpił błąd, usunięcie IndexedDb nie powiodło się."
+  },
+  "lr_err_malformedurl": {
+    "message": "Źle sformułowany adres URL."
+  },
+  "lr_err_fromdb": {
+    "message": "Nie znaleziono adresu URL."
+  },
+  "notif_title": {
+    "message": "Ostrzeżenie!"
+  },
+  "notif_err_notLnkNorImg": {
+    "message": "Zaznacz co najmniej jeden typ elementu do monitorowania (tj. obraz lub link)."
+  },
+  "notif_err_noProtocls": {
+    "message": "Podany adres URL nie ma żadnych protokołów (tj. http:// lub https://)"
+  },
+  "notif_err_unproperRegex": {
+    "message": "Podane wyrażenie regularne jest nieprawidłowe."
+  },
+  "notif_err_dbRemove_succ": {
+    "message": "Baza danych tej witryny została usunięta. "
+  },
+  "notif_err_dbRemove_fail": {
+    "message": "Wystąpił błąd, nie można usunąć bazy danych tej witryny:"
+  },
+  "notif_err_protocolsRemove_fail": {
+    "message": "Nie można usunąć protokołów z tego adresu URL.##Sprawdź ponownie adres URL."
+  },
+  "notif_err_sldtld": {
+    "message": "Podany adres URL nie ma domeny drugiego lub najwyższego poziomu (np. „google” lub „com” z adresu URL https://www.google.com)."
+  },
+  "cnfrm_delEntryRgx": {
+    "message": "Czy na pewno chcesz usunąć ten wpis?"
+  },
+  "cnfrm_delEntryStrict": {
+    "message": "Czy na pewno chcesz usunąć ten wpis?##Strona zostanie automatycznie otwarta w celu usunięcia bazy danych obrazów i/lub linków, a następnie zamknięta."
+  },
+  "cnfrm_err_sldtld": {
+    "message": "Podany adres URL nie ma domeny drugiego ani najwyższego poziomu (np. „google” lub „com” z adresu URL https://www.google.com).##Czy na pewno kontynuować?"
+  },
+  "prompt_err_sldtld": {
+    "message": "Podaj domenę drugiego lub najwyższego poziomu, aby można było dodać do tego adresu URL wyrażenia regularnego."
+  }
+}
