@@ -6,7 +6,7 @@ Highlight new links and/or images on your favorite web pages!\
 Full support for multiple pages and infinite scrolling with Regex!
 
 > [!TIP]
-> Are you looking for the **regex tester**? &#128073; [Click here!](manual_regex/manual_regex.html)
+> Are you looking for the **regex tester**? &#128073; [Click here!](https://philjbt.github.io/AlreadySeen/manual_regex/regex_tester.html)
 
 [<img src="res/chromewebstore.png">](https://chromewebstore.google.com/detail/already-seen-cl/hjojdhieicncghokppaepdghnfmkeegh)
 
