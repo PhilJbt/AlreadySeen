@@ -29,7 +29,8 @@ This way, it is possible to detect **`page=1`** as well as **`page=96`**.
 
 <br/>
 
-![regextester](../res/screen_tester.png)
-
 > [!TIP]
-> I made a Regex tester, which is available at this address: https://philjbt.github.io/AlreadySeen/manual_regex/regex_tester.html?action=example1
+> I made a Regex tester, which is available at this address:\
+> https://philjbt.github.io/AlreadySeen/manual_regex/regex_tester.html?action=example1
+
+[<img src="../res/screen_tester.png">]([https://link-to-your-URL/](https://philjbt.github.io/AlreadySeen/manual_regex/regex_tester.html?action=example1))
