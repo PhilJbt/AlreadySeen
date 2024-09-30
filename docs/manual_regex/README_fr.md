@@ -24,11 +24,11 @@ Au contraire, si vous préférez exclure quelque chose d'inattendu, voici ce que
 Pourquoi écrire `https:\/\/exemple\.com` au lieu de `https://exemple.com` ? Parce que certains caractères sont littéralement utilisés par la Regex.\
 Par exemple, l'expression régulière **`page=[0-9]+`** détecte :
 
-> La chaîne de caractères **`page=`**,
-> puis **`n'importe quel chiffre de 0 à 9`**,
-> avec au moins une répétition.
+> La chaîne de caractères **`page=`**,\
+> puis **`n'importe quel chiffre de 0 à 9`**,\
+> avec **`au moins une répétition`**.
 
-De cette façon, il est possible de détecter **`page=1`**, tout comme que **`page=96`**.
+De cette façon, il est possible de détecter **`page=1`**, tout comme **`page=96`**.
 
 <br/>
 
