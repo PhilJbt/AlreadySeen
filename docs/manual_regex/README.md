@@ -1,3 +1,6 @@
+| [<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" />](README.md) | [<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" />](README_fr.md) |
+| -- | --- |
+
 # 1. What is Regex?
 
 Regex (Regular Expression) is a sequence of characters that defines a search pattern, typically used for pattern matching, searching, and replacing text in strings.\
@@ -14,11 +17,11 @@ This way, a lot of variations like **`example.com/?type=movie&quality=HD`** are 
 <br/><br/>
 On the contrary, if you prefer to exclude anything not expected, there is what you should write:
 
-> <!---->^(?!.*genre=)https:\/\/example\.com\/\?type=movie(&page=\d)?$
+> <!---->^https:\/\/example\.com\/\?type=movie(&page=\d)?$
 
 # 3. Escaped characters
 
-Why `https:\/\/example\.com` instead of `https://example.com`? Because some characters are literally used by the Regex.\
+Why write `https:\/\/example\.com` instead of `https://example.com`? Because some characters are literally used by the Regex.\
 For example, the Regex **`page=[0-9]+`** detects:
 
 > The string **`page=`**,
