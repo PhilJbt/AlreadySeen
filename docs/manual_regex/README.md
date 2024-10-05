@@ -26,7 +26,7 @@ For example, the Regex **`page=[0-9]+`** detects:
 
 > The string **`page=`**,\
 > then **`any digit from 0 to 9`**,\
-> with at least one repetition.
+> with **`at least one repetition`**.
 
 This way, it is possible to detect **`page=1`** as well as **`page=96`**.
 
