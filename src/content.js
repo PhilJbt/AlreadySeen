@@ -171,7 +171,8 @@ async function onDomLoaded() {
 	*/
 	function planRunning(_time) {
 		// if last < delai
-		if ((new Date().getTime()) < window['asleLastRun'] + 1500) {
+		if (window['asleLastRun'] === null
+		|| (new Date().getTime()) < window['asleLastRun'] + 1500) {
 			// clearTimeout
 			clearTimeout(window['aslePlanned']);
 			// settimeout
