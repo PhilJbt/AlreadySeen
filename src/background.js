@@ -4,7 +4,7 @@
 chrome.runtime.onInstalled.addListener(async (details) => {
 	// Ask why the user decided to uninstall AS
 	if (details.reason === chrome.runtime.OnInstalledReason.INSTALL) {
-    chrome.runtime.setUninstallURL('mailto:philjbt@ik.me?subject=Why%20I%20uninstalled%20AlreadySeen&body=Hello!%20uninstalled%20AlreadySeen%20because%20');
+    chrome.runtime.setUninstallURL('mailto:philjbt@ik.me');
   }
 	
 	// Refresh tabs to add (and avoid errors), refresh (when updating) or remove (when uninstalling) AS
