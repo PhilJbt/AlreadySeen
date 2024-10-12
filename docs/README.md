@@ -27,4 +27,6 @@ Full support for multiple pages and infinite scrolling with Regex!
 
 > Third-party credits:<br/>
 > Domain Check Library: https://github.com/lupomontero/psl<br/>
-> Icon: https://www.flaticon.com/authors/andinur
+> Logo: https://www.flaticon.com/authors/andinur
+> Trash icon: https://www.flaticon.com/authors/kumakamu
+> Info icon: https://www.flaticon.com/authors/anggara
