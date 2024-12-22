@@ -7,7 +7,7 @@ chrome.runtime.onInstalled.addListener(async (details) => {
     chrome.runtime.setUninstallURL('mailto:philjbt@ik.me');
   }
 	
-	// Refresh tabs to add (and avoid errors), refresh (when updating) or remove (when uninstalling) AS
+	// Refresh tabs to add (and avoid errors), refresh (when updating) or remove (when uninstalling) AS	
 	chrome.tabs.query({}, function (tabs) {
 		for (let tab of tabs) {
 			chrome.tabs.reload(tab.id);
@@ -19,21 +19,25 @@ chrome.runtime.onInstalled.addListener(async (details) => {
 * Detect changes to tab URLs
 */
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
-  if (changeInfo.status === 'complete') {
-    chrome.storage.sync.get(['linkUrls', 'imageUrls'], (result) => {
-      const currentUrl = tab.pendingUrl || tab.url;
+	if (changeInfo.status === 'complete') {
+		chrome.storage.sync.get(['linkUrls', 'imageUrls'], (result) => {
+			const currentUrl = tab.pendingUrl || tab.url;
 
 			// If the current tab URL includes a monitored domain
-      if ((result.linkUrls && result.linkUrls.includes(currentUrl)) || 
-          (result.imageUrls && result.imageUrls.includes(currentUrl))) {
+			if ((result.linkUrls && result.linkUrls.includes(currentUrl)) || 
+					(result.imageUrls && result.imageUrls.includes(currentUrl))) {
 				// Inject content.js to the tab
-        chrome.scripting.executeScript({
-          target: { tabId },
-          files: ['content.js']
-        });
-      }
-    });
-  }
+				chrome.tabs.get(tabId, function(tabId) {
+					if (!chrome.runtime.lastError) {
+						chrome.scripting.executeScript({
+							target: { tabId },
+							files: ['content.js']
+						});
+					}
+				});
+			}
+		});
+	}
 });
 
 
@@ -41,18 +45,18 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 * Detect the click on AS's icon
 */
 chrome.action.onClicked.addListener(async (tab) => {
-  // Get the active tab's URL
-  const activeTab = await chrome.tabs.query({ active: true, currentWindow: true });
+	// Get the active tab's URL
+	const activeTab = await chrome.tabs.query({ active: true, currentWindow: true });
 
-  if (activeTab.length > 0) {
-    const tabUrl = activeTab[0].url;
+	if (activeTab.length > 0) {
+		const tabUrl = activeTab[0].url;
 
-    // Store the URL in chrome.storage
-    chrome.storage.sync.set({ lastActiveTabUrl: tabUrl }, () => {
-      // Open the options page
-      chrome.runtime.openOptionsPage();
-    });
-  }
+		// Store the URL in chrome.storage
+		chrome.storage.sync.set({ lastActiveTabUrl: tabUrl }, () => {
+			// Open the options page
+			chrome.runtime.openOptionsPage();
+		});
+	}
 });
 
 
@@ -68,14 +72,18 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 		url += message.nfo.dom;
 		
 		// Create a new tab with this domain name
-    chrome.tabs.create({url: url}, (tab) => {
+		chrome.tabs.create({url: url}, (tab) => {
 			// Wait for the tab to load before injecting the script
-			chrome.tabs.onUpdated.addListener(function listener(tabId, info) {
-				if (tabId === tab.id && info.status === 'complete') {
-					// Remove the listener
-					chrome.tabs.onUpdated.removeListener(listener);
-					// Inject the script erasing the website IndexedDb
-					injectEraseIndexedDB(tab.id, message);
+			chrome.tabs.get(tab.id, function() {
+				if (!chrome.runtime.lastError) {
+					chrome.tabs.onUpdated.addListener(function listener(tabId, info) {
+						if (tabId === tab.id && info.status === 'complete') {
+							// Remove the listener
+							chrome.tabs.onUpdated.removeListener(listener);
+							// Inject the script erasing the website IndexedDb
+							injectEraseIndexedDB(tab.id, message);
+						}
+					});
 				}
 			});
 		});
@@ -86,35 +94,39 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 	// Content.js has been injected and the tab URL is stored as monitored
 	else if (message.action === 'setBadge') {
-		// Add the 'ON' badge on the AS icon
-		if (message.show === true) {
-			chrome.action.setBadgeBackgroundColor({
-				color: '#4800ff',
-				tabId: sender.tab.id
+		chrome.tabs.get(sender.tab.id, function() {
+				if (!chrome.runtime.lastError) {
+					// Add the 'ON' badge on the AS icon
+					if (message.show === true) {
+						chrome.action.setBadgeBackgroundColor({
+							color: '#4800ff',
+							tabId: sender.tab.id
+						});
+						chrome.action.setBadgeTextColor({
+							color: '#715fa1',
+							tabId: sender.tab.id
+						});
+						chrome.action.setBadgeText({
+							text: 'ON', //'\u2b50',
+							tabId: sender.tab.id
+						});
+					}
+					else if (message.show === false) {
+						chrome.action.setBadgeBackgroundColor({
+							color: '#000',
+							tabId: sender.tab.id
+						});
+						chrome.action.setBadgeTextColor({
+							color: '#000',
+							tabId: sender.tab.id
+						});
+						chrome.action.setBadgeText({
+							text: '',
+							tabId: sender.tab.id
+						});
+					}
+				}
 			});
-			chrome.action.setBadgeTextColor({
-				color: '#715fa1',
-				tabId: sender.tab.id
-			});
-			chrome.action.setBadgeText({
-				text: 'ON', //'\u2b50',
-				tabId: sender.tab.id
-			});
-		}
-		else if (message.show === false) {
-			chrome.action.setBadgeBackgroundColor({
-				color: '#000',
-				tabId: sender.tab.id
-			});
-			chrome.action.setBadgeTextColor({
-				color: '#000',
-				tabId: sender.tab.id
-			});
-			chrome.action.setBadgeText({
-				text: '',
-				tabId: sender.tab.id
-			});
-		}
 	}
 	/*
 	else if (message.action === 'setIcon') {
@@ -135,13 +147,17 @@ function injectEraseIndexedDB(_tabId, _mess) {
 	if (_mess.nfo
 		&& _mess.nfo.dbid !== undefined) {
 		// Inject the IndexedDb removal script
-			chrome.scripting.executeScript({
-				target: {tabId: _tabId},
-				func : eraseIndexedDB,
-				args: [_mess.nfo.dbid],
-				injectImmediately: true
-			}, () => {});
-  }
+		chrome.tabs.get(_tabId, function() {
+			if (!chrome.runtime.lastError) {
+				chrome.scripting.executeScript({
+					target: {tabId: _tabId},
+					func : eraseIndexedDB,
+					args: [_mess.nfo.dbid],
+					injectImmediately: true
+				}, () => {});
+			}
+		});
+	}
 }
 
 /**

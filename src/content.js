@@ -136,32 +136,35 @@ async function onDomLoaded() {
 	* Append the red border pulsing animation to the DOM
 	*/
 	function appendCss() {
-		const style = document.createElement('style');
-		
-		style.textContent = `
-			*[ast_pulsing="true"] {
-				animation: pulseBorder 2s ease-in-out infinite;
-			}
-			@keyframes pulseBorder {
-				0% {
-					box-sizing: border-box;
-					outline: 8px solid #ff000000;
-					outline-offset: -30px;
+		if (document) {
+			const style = document.createElement('style');
+			
+			style.textContent = `
+				*[ast_pulsing="true"] {
+					animation: pulseBorder 2s ease-in-out infinite;
 				}
-				50% {
-					box-sizing: border-box;
-					outline: 8px solid #ff0000ff;
-					outline-offset: -8px;
+				@keyframes pulseBorder {
+					0% {
+						box-sizing: border-box;
+						outline: 8px solid #ff000000;
+						outline-offset: -30px;
+					}
+					50% {
+						box-sizing: border-box;
+						outline: 8px solid #ff0000ff;
+						outline-offset: -8px;
+					}
+					100% {
+						box-sizing: border-box;
+						outline: 0px solid #ff000000;
+						outline-offset: 0px;
+					}
 				}
-				100% {
-					box-sizing: border-box;
-					outline: 0px solid #ff000000;
-					outline-offset: 0px;
-				}
-			}
-		`;
-		
-		document.head.append(style);
+			`;
+			
+			if (document.head)
+				document.head.append(style);
+		}
 	}
 	
 	/**
